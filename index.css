@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body{  
+    background-color: #0C0D1E;
+}
+
+
+nav ul{
+    display:flex;
+    justify-content: space-around ;
+    list-style-type: none;
+    }
+nav a{
+    color:white;
+    text-decoration: none;
+    font-family:'Exo 2';
+    font-size: 20px;
+}
+main{
+    text-align: center;
+    margin-top: 10%;
+}
+main h1{
+    font-size: 70px;
+    color:white;
+    font-family: "Source Sans 3";
+    font-style: normal;
+    margin-bottom: 0;
+}
+main h2{
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-size: 30px;
+    color: #fff4a3;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+main h3{
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    color:#fff4a3;
+    margin-top: 0;
+}
+input{
+    background-color: #d9d9d9;
+    height: 42px;
+    width: 250px;
+    border-top-left-radius: 3cap;
+    border-top-right-radius: 3cap;
+    border-bottom-left-radius: 3cap;
+    border-bottom-right-radius: 3cap;
+}
+main a{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff4a3; 
+    text-decoration: none;
+    margin-right: 3%;
+
+}
+
+footer{
+    margin-top: 15%;
+    margin-bottom: 5%;
+   /* background-color: #003336; 
+    /*height: 920px;
+    width: 1510px;
+    padding-top: 20px;*/
+    
+}
+    
+footer h1{
+    color:#fff4a3;
+    margin-top: 0%;
+    font-family: "Source Sans 3", bold;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 5%;
+    margin-bottom: 0%;
+
+}
+footer h4{
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    font-style: normal;
+    margin-bottom: 0.4%;
+    margin-top: 0;
+
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 0%;
+    margin-top: 0;
+}
+footer ul{
+    background-color: #04aa6d;
+    height: 25px;
+    width: 80px;
+    padding: 2px;
+    text-align: center;
+    margin-top: 0;
+}
