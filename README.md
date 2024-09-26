@@ -51,44 +51,27 @@ Adicionar video e documentos nessa seção
 # Backlog do produto
 
 ## Sprint 1. Concepção
-- [ ] Defina o propósito do template;
-- [ ] Identifique os elementos principais;
-- [ ] Esboce o layout;
-- [ ] Escolha cores e fontes;
-- [ ] Desenvolva o design;
-- [ ] Teste e revise;
-- [ ] Documente instruções de uso;
-- [ ] Criação do vídeo;
-- [ ] Finalize e aprovação.
+- [x] Figma - Protótipo;
+- [x] Metodologia ágil;
+- [x] Definir layout;
+- [x] Backlog;
+- [x] Aprovação;
+- [x] Codificação básica;
+- [x] Vídeo demonstrativo.
 
 ## Sprint 2. Desenvolvimento do Projeto
-- [ ] Documento passo a passo;
-- [ ] Vídeo passo a passo;
-- [ ] Treinamento com os professores;
-- [ ] Treinamento com os alunos;
-- [ ] Monitoramento e ajustes.
-      
+- [x] Definir páginas site;
+- [ ] Imagens e referências;
+- [x] Avaliações p/ usuário;
+- [ ] Site resposivo;
+- [ ] Vídeo demonstrativo.
+    
 ## Sprint 3 . Implementação
-- [ ] Defina o propósito do template;
-- [ ] Identifique os elementos principais;
-- [ ] Esboce o layout;
-- [ ] Escolha cores e fontes;
-- [ ] Desenvolva o design;
-- [ ] Teste e revise;
-- [ ] Documente instruções de uso;
-- [ ] Criação do vídeo;
-- [ ] Finalize e aprovação.
-      
-## Sprint 4. Operacionalização
-- [ ] Defina o propósito do template;
-- [ ] Identifique os elementos principais;
-- [ ] Esboce o layout;
-- [ ] Escolha cores e fontes;
-- [ ] Desenvolva o design;
-- [ ] Teste e revise;
-- [ ] Documente instruções de uso;
-- [ ] Criação do vídeo;
-- [ ] Finalize e aprovação.
+- [ ] Modo Claro;
+- [ ] Teste e revisão;
+- [ ] Documentar instruções de uso;
+- [ ] Vídeo demonstrativo;
+- [ ] Finalizar e aprovação.
 
 
 
