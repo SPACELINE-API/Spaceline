@@ -45,6 +45,7 @@ Adicionar video e documentos nessa seção
 * Canva
 * Visual Code (HTTML e CSS)
 * Figma
+* Microsoft Excel
 
 
 
