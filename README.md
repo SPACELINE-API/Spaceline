@@ -37,7 +37,7 @@ Confira a seguir uma demonstraão das funcionalidades para cada tipo de usuário
 
 Adicionar video e documentos nessa seção
 
-[![Página Home Funcionando](https://1drv.ms/i/c/3171670597f53939/EYBjnjTVoN1HumncIHDKO-wBGP9gb67p2Fs0-11Rf7gcvA?e=eOgmZt)](https://youtu.be/8jgqIupEZpY)
+[![Página Home Funcionando](https://github.com/SPACELINE-API/Spaceline/blob/main/Logo%20Spaceline.jpg)](https://youtu.be/8jgqIupEZpY)
 
 ## Tecnologias Utilizadas
 
