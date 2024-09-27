@@ -33,11 +33,9 @@ Desenvolver um sistema web que explique os processos e artefatos da Scrum, tendo
 # Funcionalidades e registros (vídeos e apresentações) das sprints
 
 Apresentação das funcionalidades.
-Confira a seguir uma demonstraão das funcionalidades para cada tipo de usuário do sistema:
+Confira a seguir uma demonstração.
 
-Adicionar video e documentos nessa seção
-
-[![Página Home Funcionando](https://github.com/SPACELINE-API/Spaceline/blob/main/Logo%20Spaceline.jpg)](https://youtu.be/8jgqIupEZpY)
+[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://youtu.be/8jgqIupEZpY)
 
 ## Tecnologias Utilizadas
 
