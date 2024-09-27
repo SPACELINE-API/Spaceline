@@ -51,13 +51,12 @@ Confira a seguir uma demonstração.
 
 | Rank | User Story | Prioridade | Sprint |
 |----|---------|----------|------|
-| 1 | Como um designer, quero criar protótipos interativos no Figma, para que a equipe possa visualizar e testar a experiência do usuário antes do desenvolvimento.| Altíssima | 1 |
-| 2 | Como cliente, desejo que a Metodologia Ágil seja escrita de forma didática e de fácil entendimento, para que meus funcionários possam seguir um padrão em minha empresa. Isso facilitará as entregas e as apresentações de produtos, garantindo uma execução mais eficiente e alinhada às nossas metas. | Alta | 1 |
-| 3 | Como um membro da equipe, quero seguir a metodologia ágil, para que possamos adaptar rapidamente nossas prioridades e entregar incrementos de valor de forma contínua. | Alta | 1 |
-| 4 | Como desenvolvedor, quero definir o layout da aplicação para facilitar a visualização do projeto pelo cliente. Isso garantirá que a interface seja clara e que o cliente possa entender e interagir com o produto de maneira eficaz. | Altíssimo | 1 |
-| 5 | Como desenvolvedor, quero usar um repositório Git para versionar meu código, pois isso me permitirá colaborar com a equipe, reverter alterações quando necessário e oferecer uma visualização mais clara tanto para os membros da equipe quanto para o cliente. | Altíssima | 1 |
-| 6 | Como cliente, quero ter uma visualização básica do código para garantir que o produto, em sua forma de Mínimo Produto Viável (MVP), atende às minhas necessidades essenciais desde o início. Isso permitirá iterações rápidas e melhorias, assegurando que o desenvolvimento esteja sempre alinhado com minhas expectativas. | Altíssima | 1 |
-| 7 | Como cliente ou professor, quero assistir a um vídeo demonstrativo do produto para entender suas funcionalidades de forma clara e concisa. Dessa forma, poderá ser compreendido facilmente o uso e o processamento do produto. | Média | 1 |
+| 1 | Matheus, um funcionário, precisa de um site para que a equipe possa visualizar de maneira intuitiva e didática o método Scrum, assim seguindo um padrão entre todos.| Altíssima | 1 |
+| 2 | Julia, outra funcionária, deseja ter melhor conhecimento sobre o Método Scrum. Ela precisa ver de forma entendível para não restar dúvidas.  | Alta | 1 |
+| 3 | Giovanna, um membro da equipe de desenvolvimento, quer seguir a metodologia ágil, para poder adaptar rapidamente as prioridades e entregar incrementos de valor de forma contínua. | Alta | 1 |
+| 4 | Arthur, outro desenvolvedor, quer definir o layout da aplicação para facilitar a visualização do projeto pelo cliente. Isso garantirá que a interface seja clara e que o cliente possa entender e interagir com o produto de maneira eficaz. | Altíssimo | 1 |
+| 5 | Como desenvolvedor, acho pertinente usar um repositório Git para versionar os códigos feitos, pois isso permite boa colaboração com a equipe, reverte alterações quando necessário e oferece uma visualização mais clara tanto para os membros da equipe quanto para o cliente. | Altíssima | 1 |
+| 6 | O cliente, quer ter uma visualização básica do código para garantir que o produto, em sua forma de Mínimo Produto Viável (MVP), atende às necessidades essenciais desde o início.. | Altíssima | 1 |
 
 
 
