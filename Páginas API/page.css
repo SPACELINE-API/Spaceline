@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body{  
+    background-color:  #0c0d1e;
+}
+header p{
+    color: white;
+    font-weight: 800;
+    font-family: "Source Sans 3", bold;
+    font-style: normal;
+    font-size: 30px;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.fonteb{
+    color:white !important;
+    text-decoration: none;
+}
+.anterior{
+    font-family: "Source Sans 3", bold;
+    font-weight: 800;
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    border-radius: 3cap;
+    height: 25px;
+    width: 120px;
+    padding: 2px;
+    border: solid 1px white;
+    
+}
+.fontep{
+    color: black !important;
+    text-decoration: none;
+
+}
+
+.próximo {
+    font-family: "Source Sans 3", bold;
+    font-weight: 800;
+    list-style: none;
+    text-align: center;
+    background-color: #d9d9d9;
+    border-radius: 3cap;
+    height: 25px;
+    width: 120px;
+    padding: 2px;
+}

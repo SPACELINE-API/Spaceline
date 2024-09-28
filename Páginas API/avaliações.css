@@ -1,0 +1,10 @@
+body{
+    background-color: #0c0d1e;
+}
+header p{
+    color: white;
+    font-weight: 800;
+    font-family: "Source Sans 3", bold;
+    font-style: normal;
+    font-size: 30px;
+}
