@@ -101,6 +101,5 @@ Clique na imagem abaixo para uma demonstração.
 | Team Member   | Julia Roberta Ferreira Prianti              |         [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/juliaprianti06)        |
 |  Team Member  | Rafaela da Silva Penafiel Diniz                 |         [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelapenafiel)        |
 |  Team Member  | Rebeca Amorim do Nascimento                 |   [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/rebocoreb)   |
-|  Team Member  | Isabella Dombrowski Zanlorenzi       |           [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/isabellazanlorenzi)          |
 |  Team Member  | Bruna Correa da Silva       |           [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/brunacorrea-s)          |
 |  Team Member  | André de Lima Gonçalves       |           [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/DevAndre9312)          |
