@@ -19,7 +19,7 @@ Sprint | Previsão | Status|
 |Kick Off Geral | 26/08/2024 - 30/08/2024 | Concluido |
 |Kick Off 1° Semestre | 02/09/2024 - 06/09/2024 | Concluido|
 |01| 09/09/2024 - 29/09/2024 | Concluído|
-|02| 07/10/2024 - 27/10/2024 | a fazer |
+|02| 07/10/2024 - 27/10/2024 | Em progresso |
 |03| 04/11/2024 - 24/11/2024 | a fazer|
 |Feira de Soluções|12/12/2024 |a fazer |
 
