@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 body{
     background-color: #0c0d1e;
 }
@@ -8,3 +9,112 @@ header p{
     font-style: normal;
     font-size: 30px;
 }
+
+section p{
+    font-size: 25px;
+    color:#d4af37;
+    font-family: "Source Sans 3";
+    font-weight: 650;
+    text-align: center;
+}
+.detail{
+    display: flex;
+    justify-content:left;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.quadrado{
+    border-radius: 15%;
+    background-color: #04aa6d;
+    height: 25px;
+    width: 30px;
+}
+.pergunta p{
+    color: white; 
+    font-family: "Lato", sans-serif;
+    font-weight: 390;
+    font-size: 20px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+.item{
+    display: flex;
+    padding: 5px;
+    
+
+}
+.imagem{ 
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+.respostas{
+    border-radius: 1%;
+    margin-left: 1%;
+}
+.btn{
+    border:#d9d9d9;
+    background-color: #d9d9d9;
+    color:black;
+    margin-top: 0;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight:800;
+    text-align: left;
+    height: 40px;
+    width: 750px;
+    margin-left: 0%;
+    cursor: pointer;
+}
+
+.respostas1{
+    border-radius: 1%;
+    margin-left: 1%;
+  
+}
+.btn1{
+    border:#d9d9d9;
+    background-color: #d9d9d9;
+    color:black;
+    margin-top: 0;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 2px;
+    font-family: "Lato", sans-serif;
+    font-weight:800;
+    text-align: left;
+    border-radius: 1%;
+    height: 48px;
+    width: 750px;
+    cursor: pointer;
+
+}
+
+.correct {
+    background: linear-gradient(150deg, rgba(17, 125, 43, 0.7), rgba(40, 167, 69, 0.1));
+    box-shadow: 0 0 20px rgba(23, 240, 74, 0.9);
+    border-radius: 1px; 
+    padding: 3px;} 
+
+.incorrect{
+    background: linear-gradient(150deg, rgba(226, 34, 34, 0.7), rgba(139, 8, 8, 0.1));
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.9); 
+    border-radius: 1px;
+    padding: 3px;
+} 
+footer{
+    margin-bottom: 60px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+
+}
+.home{
+    display: inline-block; 
+}
+.home img{
+     width: 60px;
+}
+
