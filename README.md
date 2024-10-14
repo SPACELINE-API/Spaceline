@@ -18,8 +18,8 @@ Sprint | Previsão | Status|
 |------|--------|------|
 |Kick Off Geral | 26/08/2024 - 30/08/2024 | Concluido |
 |Kick Off 1° Semestre | 02/09/2024 - 06/09/2024 | Concluido|
-|01| 09/09/2024 - 29/09/2024 | Em Progresso|
-|02| 07/10/2024 - 27/10/2024 | a fazer |
+|01| 09/09/2024 - 29/09/2024 | Concluído|
+|02| 07/10/2024 - 27/10/2024 | Em progresso |
 |03| 04/11/2024 - 24/11/2024 | a fazer|
 |Feira de Soluções|12/12/2024 |a fazer |
 
@@ -33,9 +33,9 @@ Desenvolver um sistema web que explique os processos e artefatos da Scrum, tendo
 # Funcionalidades e registros (vídeos e apresentações) das sprints
 
 Apresentação das funcionalidades.
-Confira a seguir uma demonstração.
+Clique na imagem abaixo para uma demonstração.
 
-[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://youtu.be/8jgqIupEZpY)
+[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://www.youtube.com/watch?v=6vUQrdxxXl8)
 
 ## Tecnologias Utilizadas
 
@@ -100,7 +100,6 @@ Confira a seguir uma demonstração.
 | Scrum Master  | Yasmin Cristina Padilha |      [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/yaspadilha)     |
 | Team Member   | Julia Roberta Ferreira Prianti              |         [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/juliaprianti06)        |
 |  Team Member  | Rafaela da Silva Penafiel Diniz                 |         [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelapenafiel)        |
-|  Team Member  | Rebeca Amorim do Nascimento                 |   [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/GabrielCamargoL)   |
-|  Team Member  | Isabella Dombrowski Zanlorenzi       |           [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/isabellazanlorenzi)          |
+|  Team Member  | Rebeca Amorim do Nascimento                 |   [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/rebocoreb)   |
 |  Team Member  | Bruna Correa da Silva       |           [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/brunacorrea-s)          |
 |  Team Member  | André de Lima Gonçalves       |           [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/DevAndre9312)          |
