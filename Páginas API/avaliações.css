@@ -8,38 +8,45 @@ header p{
     font-family: "Source Sans 3", bold;
     font-style: normal;
     font-size: 30px;
+    margin-top: 3px;
+    
 }
 
 section p{
-    font-size: 25px;
+    font-size: 35px;
     color:#d4af37;
     font-family: "Source Sans 3";
     font-weight: 650;
     text-align: center;
+    margin-top: 70px;
 }
 .detail{
     display: flex;
-    justify-content:left;
-    margin-left: 2%;
+    margin-left: 21%;
     margin-top: 5%;
+    margin-right: 0px;
 }
 .quadrado{
-    border-radius: 15%;
+    border-radius: 7px;
     background-color: #04aa6d;
-    height: 25px;
-    width: 30px;
+    height: 32px;
+    width: 35px;
+    margin-bottom: 0px;
 }
 .pergunta p{
     color: white; 
     font-family: "Lato", sans-serif;
-    font-weight: 390;
+    font-weight: 400;
     font-size: 20px;
     margin-top: 0;
     padding-left: 10px;
+    margin-right: 85px;
+    text-align: left;
 }
 .item{
     display: flex;
     padding: 5px;
+    justify-content: center;
     
 
 }
@@ -61,7 +68,7 @@ section p{
     padding: 10px;
     font-family: "Lato", sans-serif;
     font-weight:800;
-    text-align: left;
+    justify-content: left;
     height: 40px;
     width: 750px;
     margin-left: 0%;
@@ -83,7 +90,6 @@ section p{
     padding-bottom: 2px;
     font-family: "Lato", sans-serif;
     font-weight:800;
-    text-align: left;
     border-radius: 1%;
     height: 48px;
     width: 750px;
