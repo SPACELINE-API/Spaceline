@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 body{  
-    background-color:  #0c0d1e;
+    background: linear-gradient(to bottom, #0c0d1e, #003336);
 }
 
 header{
@@ -62,15 +62,19 @@ h1{
 }
 
 h2{
-    color: yellow;
+    color:#d4af37;
+    font-family: "Source Sans 3";
+    font-weight: 900;
+    font-size: xx-large;
+    margin-bottom: 50px;
+    margin-top: 80px;
 }
 
 p{
     color: whitesmoke;
-    font-size: large;
+    font-size: x-large;
     font-family: "Lato";
     font-weight: 900;
-
 }
 
 section{
@@ -79,25 +83,8 @@ section{
 
 ol{
     color: whitesmoke;
-    font-size: large;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: "Source Sans 3";
+    margin-left: 70px;
 }
-.avaliação{
-    font-family: "Source Sans 3", bold;
-    font-weight: 800;
-    list-style: none;
-    background-color: #d4af37;
-    border-radius: 3cap;
-    height: 25px;
-    width: 180px;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 6%;
-    margin-left: -36%;
-    padding: 4px;
-
-}
-.fontea{
-    color:black !important;
-    text-decoration: none;    
-}
-
