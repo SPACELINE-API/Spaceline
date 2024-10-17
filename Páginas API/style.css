@@ -68,6 +68,9 @@ h2{
 p{
     color: whitesmoke;
     font-size: large;
+    font-family: "Lato";
+    font-weight: 900;
+
 }
 
 section{
@@ -78,3 +81,23 @@ ol{
     color: whitesmoke;
     font-size: large;
 }
+.avaliação{
+    font-family: "Source Sans 3", bold;
+    font-weight: 800;
+    list-style: none;
+    background-color: #d4af37;
+    border-radius: 3cap;
+    height: 25px;
+    width: 180px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 6%;
+    margin-left: -36%;
+    padding: 4px;
+
+}
+.fontea{
+    color:black !important;
+    text-decoration: none;    
+}
+
