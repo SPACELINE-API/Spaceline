@@ -103,3 +103,47 @@ section ul{
     text-align: center;
     margin-top: 0;
 }
+
+@media screen and (max-width:768px){
+    nav ul{
+        display: none;
+    }
+    main h1{
+        font-size:35px;
+    }
+    main h2{
+        font-size: 25px;
+    }
+    input{
+        height: 37px;
+        width: 200px;
+
+    }
+}
+@media screen and (max-width:520px){
+    nav ul{
+        display:none;
+    
+}
+    nav a{
+        font-size: 24px;
+        padding: 6px;
+    }
+    main h1{
+        font-size:33px;
+    }
+    main h2{
+        font-size: 23px;
+    }
+    input{
+        height: 35px;
+        width: 200px;
+
+    }
+    section h1{
+        font-size: 25px;
+    }
+    section h4{
+        font-size: medium;
+    }
+}

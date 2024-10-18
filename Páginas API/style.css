@@ -22,11 +22,6 @@ footer{
     margin-top: 20%;
 }
 
-.fonteb{
-    color:white !important;
-    text-decoration: none;
-}
-
 .anterior{
     font-family: "Source Sans 3", bold;
     font-weight: 800;
@@ -35,9 +30,11 @@ footer{
     background-color: black;
     border-radius: 3cap;
     height: 25px;
-    width: 120px;
-    padding: 2px;
-    border: solid 1px white;     
+    width: 160px;
+    padding: 4px;
+    border: solid 1px white; 
+    margin-left: 3%;
+    margin-top: 0%;
 }
 
 .fontep{
@@ -54,8 +51,6 @@ footer{
     border-radius: 3cap;
     height: 25px;
     width: 120px;
-    padding: 2px;
-    margin-left: 1%;
 }
 
 h1{
@@ -102,9 +97,10 @@ ol{
     width: 180px;
     text-align: center;
     font-size: 16px;
+    margin-top: 0.2;
     padding: 4px;
-    margin-top: 3%;
-    margin-left: -3%;
+
+
 }
 
 .fontea{
@@ -112,9 +108,8 @@ ol{
     text-decoration: none;   
 }
 .home{
-    display: inline-block; 
-    margin-left: -8.5%;
-    margin-top:-0.8%;
+    display: flex; 
+    margin-top: -2%;
 }
 .home img{
      width: 50px;
@@ -122,7 +117,7 @@ ol{
 }
 .soft{
     display: flex;
-    gap:20px;
-    margin-left: 2.5%;
-    margin-top: -0.7%;
+    gap:12px;
+    margin-left: 1%;
+    
 }
