@@ -40,6 +40,7 @@ footer{
 .fontep{
     color: black !important;
     text-decoration: none;
+    font-size: 17px;
 }
 
 .próximo {
@@ -49,8 +50,12 @@ footer{
     text-align: center;
     background-color: #d9d9d9;
     border-radius: 3cap;
+    border: solid 1px black;
     height: 25px;
-    width: 120px;
+    width: 160px;
+    padding: 4px;
+    margin-left:1%;
+    margin-top: 0%;
 }
 
 h1{
