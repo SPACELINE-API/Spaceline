@@ -20,6 +20,13 @@ section p{
     text-align: center;
     margin-top: 70px;
 }
+section h5{
+    color: white;
+    font-weight: 400; 
+    text-align: justify;
+    margin:37px;
+    font-size: 2.0vw;
+}
 .detail{
     display: flex;
     margin-left: 21%;
@@ -122,5 +129,123 @@ footer{
 }
 .home img{
      width: 60px;
+}
+
+@media  screen and (max-width:768px) {
+    section h5{
+        font-size: 25px;
+    }
+
+    .btn1{
+        font-size: 15px;
+        height: 57px;
+        width: 570px;
+        padding-top: 4px;
+    }
+    .imagem{
+        margin-left: 12%;
+        margin-top: 1.5%;
+    }
+    .btn{
+        justify-content: center;
+        height: 45px;
+        width: 575px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .quadrado{
+        margin-left: -9%;
+    
+    }
+    .pergunta p{
+        font-size: 17px;
+        margin-top: 1%;
+    }
+    .item{
+        margin-top: 2%;
+        padding: 0;
+    }
+    .detail{
+        margin-left: 19%;
+
+    }
+}
+@media  screen and (max-width:412px) {
+    section h5{
+        font-size: 20px;
+    }
+    section p{
+        font-size: 27px;
+    }
+
+    .btn1{
+        font-size: 12px;
+        height: 62px;
+        width: 320px;
+        padding-top: 4px;
+        margin-left: 1%;
+    }
+
+    .btn{
+        justify-content: center;
+        height: 45px;
+        width: 320px;
+        cursor: pointer;
+        font-size: 12px;
+        margin-right: 5%;
+        margin-left: 1%;
+    }
+    .quadrado{
+        display: none;
+    
+    }
+    .pergunta p{
+        font-size: 15px;
+        margin-top: 1%;
+        margin-left: -12%;
+    }
+    .item{
+        margin-top: 4%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:430px) {
+    section h5{
+        font-size: 20px;
+    }
+    section p{
+        font-size: 27px;
+    }
+
+    .btn1{
+        font-size: 12px;
+        height: 62px;
+        width: 320px;
+        padding-top: 4px;
+        margin-left: 1%;
+    }
+
+    .btn{
+        justify-content: center;
+        height: 45px;
+        width: 320px;
+        cursor: pointer;
+        font-size: 12px;
+        margin-right: 5%;
+        margin-left: 1%;
+    }
+    .quadrado{
+        display: none;
+    
+    }
+    .pergunta p{
+        font-size: 15px;
+        margin-top: 1%;
+        margin-left: -12%;
+    }
+    .item{
+        margin-top: 4%;
+        padding: 0;
+    }
 }
 
