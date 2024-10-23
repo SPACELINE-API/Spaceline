@@ -163,14 +163,25 @@ ol{
 
 @media  screen and (max-width:520px){
     h1{
-        font-size: 20px;
+        font-size: 35px;
         margin-top: 50px;
     }
     h2{
-        font-size: 18px;
+        font-size: 20px;
+    }
+    .alinhar{
+        display: block;
+    
+    }
+    .alinhar img{
+        width: 180px;
+        height: 160px;
+        margin-top: -10%;
+        margin-left: 10%;
+        margin-bottom: 2%;
     }
     p{
-        font-size: 16px;
+        font-size: 18px;
         width: 90%;
     }
     ol{
@@ -181,16 +192,28 @@ ol{
 
 @media  screen and (max-width:420px){
     h1{
-        font-size: 15px;
+        font-size: 30px;
         margin-top: 50px;
+        
     }
     h2{
-        font-size: 16px;
+        font-size: 20px;
+    }
+    .alinhar{
+        display: block;
+    
+    }
+    .alinhar img{
+        width: 180px;
+        height: 160px;
+        margin-top: -10%;
+        margin-left: 10%;
+        margin-bottom: 2%;
     }
     p{
-        font-size: 14px;
-        width: 100%;
-    }
+        font-size: 16px;
+        
+   }
     ol{
         font-size: 14px;
         margin-left: 15px;
