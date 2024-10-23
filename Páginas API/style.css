@@ -76,10 +76,14 @@ p{
     font-size: x-large;
     font-family: "Lato";
     font-weight: 900;
+    width: 1000px;
+
+   
 }
 
 section{
     margin-left: 50px;
+    
 }
 
 ol{
@@ -125,4 +129,18 @@ ol{
     gap:12px;
     margin-left: 1%;
     
+}
+.alinhar{
+    display: flex;
+    justify-content:baseline;
+    gap: 80px;
+}
+
+.alinhar img{
+    border-radius: 30%;
+    width: 270px;
+    height:250px;
+    border: solid 10px #003336;
+    background-color: #003336;
+   
 }
