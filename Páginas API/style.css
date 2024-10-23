@@ -76,9 +76,9 @@ p{
     font-size: x-large;
     font-family: "Lato";
     font-weight: 900;
-    width: 1000px;
+    width: 80%;
+    margin: 0 auto;
 
-   
 }
 
 section{
@@ -121,7 +121,7 @@ ol{
     margin-top: -2%;
 }
 .home img{
-     width: 50px;
+    width: 50px;
     
 }
 .soft{
@@ -142,5 +142,58 @@ ol{
     height:250px;
     border: solid 10px #003336;
     background-color: #003336;
-   
+}
+
+@media  screen and (max-width:768px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+        width: 90%;
+    }
+    ol{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+}
+
+@media  screen and (max-width:520px){
+    h1{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+        width: 90%;
+    }
+    ol{
+        font-size: 16px;
+        margin-left: 30px;
+    }
+}
+
+@media  screen and (max-width:420px){
+    h1{
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+        width: 100%;
+    }
+    ol{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    
 }
