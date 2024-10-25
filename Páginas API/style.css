@@ -151,6 +151,25 @@ ol{
     margin-bottom: 2%;
 }
 
+h3{
+    background-color: black;
+    width: 70px;
+    color: white;
+    font-family: 'Source Sans 3';
+}
+
+#h3branco{
+    background-color: white;
+    color: black;
+}
+
+#resumo{
+    background-color: #04AA6D;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
 @media  screen and (max-width:768px){
     h1{
         font-size: 30px;

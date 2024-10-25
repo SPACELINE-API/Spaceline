@@ -104,6 +104,14 @@ section ul{
     margin-top: 0;
 }
 
+footer h3{
+    font-family: 'Exo 2';
+}
+
+footer a{
+    font-family: "Source Sans 3";
+}
+
 @media screen and (max-width:768px){
     nav ul{
         display: none;
