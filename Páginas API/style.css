@@ -19,7 +19,7 @@ footer{
     display: flex;
     justify-content:center;
     margin-bottom: 20px;
-    margin-top: 20%;
+    margin-top: 8%;
 }
 
 .anterior{
@@ -192,7 +192,7 @@ h3{
     color:#0c0d1e;
     text-align: center;
     padding-top: 70px;
-    font-size: 17px;
+    font-size: 25px;
     font-family: "Source Sans 3", bold;
     font-weight: 900;
 }
