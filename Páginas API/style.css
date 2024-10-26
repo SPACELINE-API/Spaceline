@@ -60,15 +60,19 @@ footer{
 
 h1{
     color: white;
+    font-size: 50px;
 }
-
+#margin{
+    margin-top: 8%;
+    margin-bottom: -0.5%;
+}
 h2{
     color:#d4af37;
     font-family: "Source Sans 3";
     font-weight: 900;
     font-size: xx-large;
     margin-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 p{
@@ -76,11 +80,12 @@ p{
     font-size: x-large;
     font-family: "Lato";
     font-weight: 900;
-    width: 80%;
+    width: 1000px;
 }
 
 section{
     margin-left: 50px;
+    
 }
 
 ol{
@@ -131,43 +136,139 @@ ol{
     gap: 80px;
 }
 
-.alinhar img{
-    border-radius: 30%;
-    width: 270px;
-    height:250px;
-    border: solid 10px #003336;
-    background-color: #003336;
+#introimg{
+    width: 360px;
+    height:310px;
+    float:inline-start;
+    margin-right: 2%;
+    margin-top: -2%;
 }
 
-.alinhar2{
-    display: flex;
-    justify-content:space-between;
+#livrointro{
+    width: 360px;
+    height: 310px;
+    float: inline-end;
+    margin-right: 90px;
+    margin-top: -15%;
+   
+ 
 }
-
-.alinhar2 img{
-    width: 320px;
-    height: 290px;
-    margin-top: -4%;
-    margin-bottom: 2%;
-}
-
 h3{
     background-color: black;
-    width: 70px;
+    width: 90px;
+    height: 30px;
+    padding: 8px;
     color: white;
     font-family: 'Source Sans 3';
+    text-align: center;
+}
+.userstory{
+    display: flex;
+    justify-content: space-around;
 }
 
 #h3branco{
-    background-color: white;
+    background-color:#d9d9d9;
     color: black;
+    font-family: 'Source Sans 3';
+    font-weight: 900;
 }
 
 #resumo{
     background-color: #04AA6D;
     width: 200px;
-    height: 200px;
-    border-radius: 50px;
+    height: 130px;
+    border-radius: 3cap;
+}
+#imguserstory{
+    width: 370px;
+    height: 320px;
+    border-radius: 60%;
+    float: inline-end;
+    margin-top: -3%;
+    margin-right: 8%;
+}
+.resumo h3{
+    color:#0c0d1e;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 17px;
+    font-family: "Source Sans 3", bold;
+    font-weight: 900;
+}
+.resumo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+#img{
+    width: 300px;
+    height: 280px;
+    margin-left: 40%;
+    margin-top: -5%;
+}
+#imgartefatos{
+    float:left;
+    width: 350px;
+    height: 350px; 
+    margin-right: 20px;
+    margin-top: 2%;
+    border-radius: 1cap;
+}
+#burndown{
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: -5%;
+
+}
+
+#imgdor{
+    width: 250px;
+    height: 220px;
+    float:  right;
+    border-radius: 25%;
+    margin-right: 12%;
+    margin-top: 2%;
+    background-color: #f4f4f4;
+}
+#imgdod{
+    width: 250px;
+    height: 220px;
+    border-radius: 25%;
+    float: inline-start;
+    margin-top: 2%;
+    margin-right: 3%;
+}
+#imgsoftskills{
+    width: 400px;
+    height: 350px;
+    float: inline-end;
+    margin-right: 70px;
+    margin-top: -8%;
+    border-radius: 20%;
+
+}
+#hardesoftimg{
+    width: 400px;
+    height: 350px;
+    border-radius: 20%;
+    float: inline-start;
+    margin-right:2%;
+    margin-top: 2%;
+}
+#imgscrum{
+    float: inline-end;
+    width: 400px;
+    height: 350px; 
+    margin-right:5%;
+}
+#timescrum{
+    float: left;
+    width: 400px;
+    height: 350px; 
+    margin-right:3%;
+    margin-top: -5%;
+
 }
 
 @media  screen and (max-width:768px){
@@ -216,7 +317,7 @@ h3{
     }
 }
 
-@media  screen and (max-width:420px){
+@media  screen and (max-width:412px){
     h1{
         font-size: 30px;
         margin-top: 50px;
@@ -242,6 +343,12 @@ h3{
     ol{
         font-size: 14px;
         margin-left: 15px;
+    }
+    #imgartefatos{
+        float:initial;
+        width: 200px;
+        height: 200px; 
+        margin-left: 10%;
     }
 }
 
