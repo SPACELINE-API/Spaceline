@@ -7,9 +7,16 @@ header p{
     font-weight: 800;
     font-family: "Source Sans 3", bold;
     font-style: normal;
-    font-size: 30px;
     margin-top: 3px;
-    
+    margin-bottom: 0px;
+    margin-left: 7px; 
+    font-size: 65px;
+}
+#teste{
+    margin-top: 0px; 
+    margin-left: 55px;
+    font-size: 35px; 
+    color:#d4af37;
 }
 
 section p{
@@ -172,10 +179,16 @@ footer{
 }
 @media  screen and (max-width:412px) {
     section h5{
-        font-size: 20px;
+        font-size: 16px;
+        margin-left: 5%;
     }
     section p{
         font-size: 27px;
+        margin-left: 10%;
+    }
+    header p{
+        font-size: 40px;
+        margin-left: 5%;
     }
 
     .btn1{
@@ -189,7 +202,7 @@ footer{
     .btn{
         justify-content: center;
         height: 45px;
-        width: 320px;
+        width: 310px;
         cursor: pointer;
         font-size: 12px;
         margin-right: 5%;
@@ -209,12 +222,16 @@ footer{
         padding: 0;
     }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:520px) {
     section h5{
         font-size: 20px;
     }
     section p{
         font-size: 27px;
+    }
+    header p{
+        font-size: 55px;
+        margin-left: 5%;
     }
 
     .btn1{
