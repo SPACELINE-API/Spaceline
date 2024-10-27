@@ -37,13 +37,7 @@ footer{
     margin-top: 0%;
 }
 
-.fontep{
-    color: black !important;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.próximo {
+.próximo{
     font-family: "Source Sans 3", bold;
     font-weight: 800;
     list-style: none;
@@ -56,6 +50,7 @@ footer{
     padding: 4px;
     margin-left:1%;
     margin-top: 0%;
+    cursor: pointer;
 }
 
 h1{
@@ -110,14 +105,9 @@ ol{
     margin-top: 0.2;
     padding: 4px;
 }
-
-.fontea{
-    color:black !important;
-    text-decoration: none;   
-}
 .home{
     display: flex; 
-    margin-top: -2%;
+    margin-top: -15%;
 }
 .home img{
     width: 50px;
@@ -145,7 +135,7 @@ ol{
 
 h3{
     background-color: black;
-    width: 500px;
+    width: 200px;
     height: 25px;
     padding: 8px;
     color: white;
@@ -153,7 +143,8 @@ h3{
     text-align: center;
 }
 .userstory{
-    display: inline;
+   display: flex;
+   justify-content: space-around;
 }
 
 #h3branco{
@@ -161,7 +152,7 @@ h3{
     color: black;
     font-family: 'Source Sans 3';
     font-weight: 800;
-    width: 500px;
+    width: 200px;
     height: 25px;
     font-size: 18px;
 }
@@ -172,6 +163,17 @@ h3{
     height: 130px;
     border-radius: 3cap;
 }
+<<<<<<< HEAD
+=======
+#imguserstory{
+    width: 370px;
+    height: 320px;
+    border-radius: 60%;
+    float: inline-end;
+    margin-top: -3%;
+    margin-right: 8%;
+}
+>>>>>>> 5cd2761b167bad143f3746ffabafc1098153cfc6
 .resumo h3{
     color:#0c0d1e;
     text-align: center;
@@ -260,11 +262,6 @@ h3{
     margin-top: 3%;
     margin-bottom: -5%;
 }
-#qpo{
-    margin-top: 1%;
-    text-align: left;
-}
-
 #alinhar{
     width: 1350px;
 }
@@ -341,19 +338,16 @@ h3{
         height: 120px;
     }
     h3{
-        width: 300px;
+        width: 180px;
         height: 25px;
-        font-size: 18px;
-    }
-    .userstory{
-        display: inline;
+        font-size: 16px;
     }
     
     #h3branco{
         font-weight: 900;
-        width: 320px;
+        width: 180px;
         height: 25px;
-        font-size: 18px;
+        font-size: 16px;
     }
     #mvpimg{
         width: 500px;
@@ -456,15 +450,21 @@ h3{
         height: 90px;
     }
     #h3branco{
-        width: 350px;
+        width: 100px;
         height: 25px;
     }
     h3{
-        width: 350px;
+        width: 100px;
     }
     #mvpimg{
         width: 300px;
         height: 180px;
+    }
+    .anterior{
+        width: 150px;
+    }
+    .próximo{
+        width: 150px;
     }
 }
 
@@ -570,21 +570,40 @@ h3{
         height: 80px;
 
     }
+    .userstory{
+        margin-left: -5%;
+    }
     h3{
-        width: 230px;
-        height: 25px;
-        font-size: 18px;
+        width: 90px;
+        height: 20px;
+        font-size: 15px;
     }
     
     #h3branco{
-        width: 230px;
-        height: 25px;
-        font-size: 18px;
+        width: 90px;
+        height: 20px;
+        font-size: 15px;
     }
     #mvpimg{
         width: 270px;
         height: 150px;
         margin-left: 5%;
+    }
+    .home{
+        gap:100px;
+    }
+    .avaliação{
+        font-size: 15px;
+        width: 200px;
+        margin-left: 5%;
+    }
+    .anterior{
+        width: 130px;
+        margin-right: 2%;
+    }
+    .próximo{
+        width: 130px;
+        margin-left: 2%;
     }
 }
 

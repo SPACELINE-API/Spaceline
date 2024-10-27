@@ -35,13 +35,19 @@ Desenvolver um sistema web que explique os processos e artefatos da Scrum, tendo
 Apresentação das funcionalidades.
 Clique na imagem abaixo para uma demonstração.
 
-[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://www.youtube.com/watch?v=6vUQrdxxXl8)
+[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://youtu.be/hHUzkHtXbNk)
+
+## MVP
+![MVP da equipe spaceline](https://github.com/SPACELINE-API/Spaceline/blob/main/P%C3%A1ginas%20API/imagens/WhatsApp%20Image%202024-10-26%20at%2013.00.13.jpeg)
 
 ## Tecnologias Utilizadas
 
 * Jira Software
 * Canva
-* Visual Code (HTTML e CSS)
+* Visual Code Studio
+* HTML
+* CSS
+* Javascript
 * Figma
 * Microsoft Excel
 
@@ -57,7 +63,18 @@ Clique na imagem abaixo para uma demonstração.
 | 4 | Arthur, outro desenvolvedor, quer definir o layout da aplicação para facilitar a visualização do projeto pelo cliente. Isso garantirá que a interface seja clara e que o cliente possa entender e interagir com o produto de maneira eficaz. | Altíssimo | 1 |
 | 5 | Como desenvolvedor, acho pertinente usar um repositório Git para versionar os códigos feitos, pois isso permite boa colaboração com a equipe, reverte alterações quando necessário e oferece uma visualização mais clara tanto para os membros da equipe quanto para o cliente. | Altíssima | 1 |
 | 6 | O cliente, quer ter uma visualização básica do código para garantir que o produto, em sua forma de Mínimo Produto Viável (MVP), atende às necessidades essenciais desde o início.. | Altíssima | 1 |
-
+| 7 | Marcos, um desenvolvedor, precisa definir as páginas do site para garantir que todas as informações relevantes estejam organizadas e acessíveis aos usuários. | Altíssima | 2 |
+| 8 | Ana, uma designer, deseja coletar imagens e referências para criar um layout atraente que atenda às expectativas visuais do cliente. | Média | 2 |
+| 9 | Carlos, um funcionário da empresa Z, gostaria de um sistema de avaliações para que ele, e outros funcionários possam ter um feedback sobre sua aprendizagem em relação ao conteúdo. | Altíssima | 2 |
+| 10 | Laura, uma desenvolvedora front-end, precisa que o site seja responsivo para garantir que os usuários tenham uma experiência consistente em dispositivos móveis e desktops. | Alta | 2 |
+| 11 | Pedro, um desenvolvedor, precisa implementar um modo claro no site para melhorar a legibilidade e a experiência do usuário em diferentes condições de iluminação. | Baixa | 3 |
+| 12 | Sofia, uma analista de conteúdo, deseja revisar todo o material do site para garantir que as informações sejam precisas e atualizadas. | Média | 3 |
+| 13 | Eduardo, um instrutor, quer adicionar instruções de uso claras para ajudar os usuários a navegar facilmente pelo site e entender suas funcionalidades. | Alta | 3 |
+| 14 | Tatiane, uma gerente de projeto, precisa realizar uma revisão final do site antes do lançamento para garantir que tudo esteja funcionando corretamente e que não haja erros. | Baixa | 3 |
+| 15 | Felipe, um designer, quer aumentar a interatividade do site para engajar os usuários e tornar a experiência mais dinâmica e envolvente. | Alta | 3 |
+| 16 | Carla, uma especialista em UX, deseja demonstrar uma pontuação para os funcionários da empresa Z, em relação as avaliações realizadas. | Altíssima | 3 |
+| 17 | Lucas, um desenvolvedor, precisa implementar uma barra de pesquisa para facilitar a localização de conteúdos específicos no site. | Alta | 3 |
+| 18 | Amanda, uma designer, quer criar uma barra de navegação em cascata para melhorar a usabilidade e permitir que os usuários acessem facilmente subcategorias e páginas do site. | Alta | 3 |
 
 
   
