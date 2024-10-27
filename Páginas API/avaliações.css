@@ -29,7 +29,7 @@ section p{
 }
 section h5{
     color: white;
-    font-weight: 600; 
+    font-weight: 400; 
     text-align: justify;
     margin:37px;
     font-size: 2.0vw;
@@ -265,4 +265,3 @@ footer{
         padding: 0;
     }
 }
-
