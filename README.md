@@ -35,7 +35,7 @@ Desenvolver um sistema web que explique os processos e artefatos da Scrum, tendo
 Apresentação das funcionalidades.
 Clique na imagem abaixo para uma demonstração.
 
-[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://www.youtube.com/watch?v=6vUQrdxxXl8)
+[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://youtu.be/hHUzkHtXbNk)
 
 ## Tecnologias Utilizadas
 
