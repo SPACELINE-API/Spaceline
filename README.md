@@ -44,7 +44,10 @@ Clique na imagem abaixo para uma demonstração.
 
 * Jira Software
 * Canva
-* Visual Code (HTTML e CSS)
+* Visual Code Studio
+* HTML
+* CSS
+* Javascript
 * Figma
 * Microsoft Excel
 
