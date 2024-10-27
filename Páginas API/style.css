@@ -80,7 +80,6 @@ p{
     font-size: x-large;
     font-family: "Lato";
     font-weight: 900;
-    width: 1000px;
 }
 
 section{
@@ -144,15 +143,6 @@ ol{
     margin-top: -2%;
 }
 
-#livrointro{
-    width: 360px;
-    height: 310px;
-    float: inline-end;
-    margin-right: 90px;
-    margin-top: -15%;
-   
- 
-}
 h3{
     background-color: black;
     width: 500px;
@@ -181,14 +171,6 @@ h3{
     width: 200px;
     height: 130px;
     border-radius: 3cap;
-}
-#imguserstory{
-    width: 370px;
-    height: 320px;
-    border-radius: 60%;
-    float: inline-end;
-    margin-top: -20%;
-    margin-right: 10%;
 }
 .resumo h3{
     color:#0c0d1e;
@@ -245,7 +227,6 @@ h3{
     height: 350px;
     float: inline-end;
     margin-right: 70px;
-    margin-top: -8%;
     border-radius: 20%;
 
 }
@@ -307,10 +288,6 @@ h3{
         width: 260px;
         height:210px;
     }
-    #livrointro{
-        width: 250px;
-        height: 200px;
-    }
     #imgscrum{
         width: 270px;
         height: 210px; 
@@ -339,15 +316,9 @@ h3{
         height: 170px;
         margin-right: 2%;
     }
-    #imguserstory{
-        width: 280px;
-        height: 250px;
-        margin-left: 2%;
-    }
     #imgsoftskills{
         width: 300px;
         height: 250px;
-        margin-top: 8%;
     }
     #hardesoftimg{
         width: 300px;
@@ -424,11 +395,6 @@ h3{
         float: inherit;
         margin-left: 18%;
     }
-    #livrointro{
-        width: 200px;
-        height: 160px;
-        margin-bottom: 5%;
-    }
     #imgscrum{
         width: 270px;
         height: 210px; 
@@ -460,12 +426,6 @@ h3{
         height: 150px;
         float: initial;
         margin-top: 5%;
-    }
-    #imguserstory{
-        width: 200px;
-        height: 180px;
-        margin-top: 3%;
-        float: inline-end;
     }
     #imgsoftskills{
         width: 270px;
@@ -542,11 +502,6 @@ h3{
         margin-left: 15%;
         float: inherit;
     }
-    #livrointro{
-        width: 150px;
-        height: 130px;
-        margin-bottom: 5%;
-    }
     #imgscrum{
         width: 230px;
         height: 200px; 
@@ -578,13 +533,6 @@ h3{
         height: 120px;
         float: initial;
         margin-top: 5%;
-    }
-    #imguserstory{
-        width: 170px;
-        height: 150px;
-        margin-top: 3%;
-        float: initial;
-        margin-left: 12%;
     }
     h3{
         width: 70px;

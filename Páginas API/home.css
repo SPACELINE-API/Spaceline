@@ -110,6 +110,8 @@ footer h3{
 
 footer a{
     font-family: "Source Sans 3";
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width:768px){
