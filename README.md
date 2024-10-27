@@ -38,7 +38,8 @@ Clique na imagem abaixo para uma demonstração.
 [(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://youtu.be/hHUzkHtXbNk)
 
 ## MVP
-![MVP da equipe spaceline](PáginasAPI/imagens/WhatsAppImage2024-10-26 at 13.00.13.jpeg)
+![MVP da equipe spaceline](https://github.com/SPACELINE-API/Spaceline/blob/main/P%C3%A1ginas%20API/imagens/WhatsApp%20Image%202024-10-26%20at%2013.00.13.jpeg))
+
 ## Tecnologias Utilizadas
 
 * Jira Software
