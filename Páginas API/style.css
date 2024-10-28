@@ -466,6 +466,12 @@ h3{
         width: 300px;
         height: 180px;
     }
+    .anterior{
+        width: 150px;
+    }
+    .próximo{
+        width: 150px;
+    }
 }
 
 
@@ -585,6 +591,21 @@ h3{
         width: 270px;
         height: 150px;
         margin-left: 5%;
+    }
+    .home{
+        gap:100px;
+    }
+    .avaliação{
+        font-size: 15px;
+        width: 180px;
+    }
+    .anterior{
+        width: 130px;
+        margin-right: 2%;
+    }
+    .próximo{
+        width: 130px;
+        margin-left: 2%;
     }
 }
 
