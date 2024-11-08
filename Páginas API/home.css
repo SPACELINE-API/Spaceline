@@ -3,16 +3,20 @@
 body{  
     background: linear-gradient(to bottom, #0c0d1e, #003336);
 }
-nav ul{
+.nav-item{
     display:flex;
     justify-content: space-around ;
     list-style-type: none;
+    margin-top: 8%;
     }
-nav a{
+.nav-link{
     color:white;
     text-decoration: none;
     font-family:'Exo 2';
     font-size: 20px;
+}
+.nav-link:hover{
+    color:#fff4a3;
 }
 main{
     text-align: center;
@@ -24,20 +28,23 @@ main h1{
     font-family: "Source Sans 3";
     font-style: normal;
     margin-bottom: 0;
+    font-weight: 600;
 }
 main h2{
-    font-family: 'Source Sans 3';
+    font-family: "Source Sans 3";
     font-style: normal;
     font-size: 30px;
     color: #fff4a3;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 600;
 }
 main h3{
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans Pro";
     font-size: 20px;
     color:#fff4a3;
     margin-top: 0;
+    font-weight: 800;
 }
 input{
     background-color: #d9d9d9;
@@ -74,6 +81,7 @@ section h1{
     font-style: normal;
     margin-top: 5%;
     margin-bottom: 0%;
+    margin-left: 1%;
 
 }
 section h4{
@@ -84,6 +92,7 @@ section h4{
     font-style: normal;
     margin-bottom: 0.4%;
     margin-top: 0;
+    margin-left: 1%;
 
 }
 section a{
@@ -97,27 +106,40 @@ section a{
 }
 section ul{
     background-color: #04aa6d;
-    height: 25px;
-    width: 80px;
+    height: 28px;
+    width: 90px;
     padding: 2px;
     text-align: center;
     margin-top: 0;
+    margin-left: 1%;
 }
-
+footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 footer h3{
-    font-family: 'Exo 2';
+    font-family: "Exo 2";
+    color:#fff4a3;
+    font-size: 20px;
+    font-weight: 800;
+}
+footer p{
+    color:white;
+    font-family: "Exo 2";
+    font-weight: 700;
+    font-size: 17px;
 }
 
 footer a{
     font-family: "Source Sans 3";
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 @media screen and (max-width:768px){
-    nav ul{
-        display: none;
-    }
     main h1{
         font-size:35px;
     }
@@ -131,14 +153,6 @@ footer a{
     }
 }
 @media screen and (max-width:520px){
-    nav ul{
-        display:none;
-    
-}
-    nav a{
-        font-size: 24px;
-        padding: 6px;
-    }
     main h1{
         font-size:33px;
     }

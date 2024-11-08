@@ -1,16 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 body{  
     background: linear-gradient(to bottom, #0c0d1e, #003336);
+}
+.nav-item{
+    display:flex;
+    justify-content: space-around ;
+    list-style-type: none;
+    margin-top: 8%;
+    }
+.nav-link{
+    color:white;
+    text-decoration: none;
+    font-family:'Exo 2';
+    font-size: 20px;
+}
+.nav-link:hover{
+    color:#fff4a3;
 }
 
 header{
     color: white;
-    font-weight: 800;
+    font-weight: 900;
     font-family: "Source Sans 3", bold;
     font-style: normal;
     font-size: 30px;
     margin-left: 50px;
+    margin-top: 2%;
 }
 
 footer{
@@ -19,7 +36,7 @@ footer{
     display: flex;
     justify-content:center;
     margin-bottom: 20px;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .anterior{
@@ -29,7 +46,7 @@ footer{
     text-align: center;
     background-color: black;
     border-radius: 3cap;
-    height: 25px;
+    height: 35px;
     width: 160px;
     padding: 4px;
     border: solid 1px white; 
@@ -51,7 +68,7 @@ footer{
     background-color: #d9d9d9;
     border-radius: 3cap;
     border: solid 1px black;
-    height: 25px;
+    height: 35px;
     width: 160px;
     padding: 4px;
     margin-left:1%;
@@ -103,12 +120,11 @@ ol{
     background-color: #d9d9d9;
     border-radius: 3cap;
     border: solid 1px black;
-    height: 25px;
+    height: 35px;
     width: 180px;
     text-align: center;
     font-size: 16px;
-    margin-top: 0.2;
-    padding: 4px;
+    padding: 0px;
 }
 
 .fontea{
@@ -146,11 +162,13 @@ ol{
 h3{
     background-color: black;
     width: 500px;
-    height: 25px;
+    height: 35px;
     padding: 8px;
     color: white;
     font-family: 'Source Sans 3';
+    font-weight: 800;
     text-align: center;
+    font-size: 18px;
 }
 .userstory{
     display: inline;
@@ -162,20 +180,21 @@ h3{
     font-family: 'Source Sans 3';
     font-weight: 800;
     width: 500px;
-    height: 25px;
+    height: 35px;
     font-size: 18px;
 }
 
 #resumo{
     background-color: #04AA6D;
     width: 200px;
-    height: 130px;
+    height: 160px;
     border-radius: 3cap;
 }
+
 .resumo h3{
     color:#0c0d1e;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
     font-size: 20px;
     font-family: "Source Sans 3", bold;
     font-weight: 900;
@@ -211,7 +230,7 @@ h3{
     float:  right;
     border-radius: 25%;
     margin-right: 12%;
-    margin-top: 2%;
+    margin-top: 1%;
     background-color: #f4f4f4;
 }
 #imgdod{
@@ -219,7 +238,7 @@ h3{
     height: 220px;
     border-radius: 25%;
     float: inline-start;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-right: 3%;
 }
 #imgsoftskills{
