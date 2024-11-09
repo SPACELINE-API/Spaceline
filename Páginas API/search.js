@@ -5,7 +5,17 @@ const pages = [
     { title: "Scrum Master", url: "master.html", content: "O papel do Scrum Master no Scrum." },
     { title: "Product Owner", url: "po.html", content: "O papel do Product Owner no Scrum." },
     { title: "Soft Skills", url: "softskills.html", content: "Habilidades interpessoais para profissionais de TI." },
-    { title: "Avaliações", url: "avaliações.html", content: "O papel das avaliações no Scrum." }
+    { title: "Avaliações", url: "avaliações.html", content: "O papel das avaliações no Scrum." },
+    { title: "Metodologia Ágil", url: "intro.html", content: "O que é a metodologia ágil?"},
+    { title:"Método Scrum", url:"scrum.html", content:"O que é método scrum?"},
+    { title:"Benefícios", url:"scrum.html", content:"Quais os benefícios de usar o scrum?"},
+    { title:"Backlog do Produto", url:"artefatos.html", content:"Como montar o backlog?"},
+    { title:"Burndown", url:"artefatos.html", content:"Como criar um burndown?"},
+    { title:"User Story", url:"artefatos.html", content:"Como fazer uma user story?"},
+    { title:"Definition of Ready", url:"artefatos.html", content:"DOR"},
+    { title:"Definition of Done", url:"artefatos.html", content:"DOD"},
+    { title:"Mínimo Produto Viável", url:"artefatos.html", content:"Como fazer o MVP?"},
+    { title:"Hard Skills", url:"softskills.html", content:"Diferença entre soft skills e hard skills"},
 ];
 function searchSite() {
     const query = document.getElementById('searchInput').value.toLowerCase();
