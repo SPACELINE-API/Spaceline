@@ -1,35 +1,25 @@
 const pages = [
-    { title: "Introdução", url: "intro.html", content: "Introdução ao Scrum e ao método ágil." },
-    { title: "Scrum", url: "scrum.html", content: "O que é Scrum e como funciona." },
-    { title: "Artefatos", url: "artefatos.html", content: "Ferramentas e artefatos do Scrum." },
-    { title: "Scrum Master", url: "master.html", content: "O papel do Scrum Master no Scrum." },
-    { title: "Product Owner", url: "po.html", content: "O papel do Product Owner no Scrum." },
-    { title: "Soft Skills", url: "softskills.html", content: "Habilidades interpessoais para profissionais de TI." },
-    { title: "Avaliações", url: "avaliações.html", content: "O papel das avaliações no Scrum." },
-    { title: "Metodologia Ágil", url: "intro.html", content: "O que é a metodologia ágil?"},
-    { title:"Método Scrum", url:"scrum.html", content:"O que é método scrum?"},
-    { title:"Benefícios", url:"scrum.html", content:"Quais os benefícios de usar o scrum?"},
-    { title:"Backlog do Produto", url:"artefatos.html", content:"Como montar o backlog?"},
-    { title:"Burndown", url:"artefatos.html", content:"Como criar um burndown?"},
-    { title:"User Story", url:"artefatos.html", content:"Como fazer uma user story?"},
-    { title:"Definition of Ready", url:"artefatos.html", content:"DOR"},
-    { title:"Definition of Done", url:"artefatos.html", content:"DOD"},
-    { title:"Mínimo Produto Viável", url:"artefatos.html", content:"Como fazer o MVP?"},
-    { title:"Hard Skills", url:"softskills.html", content:"Diferença entre soft skills e hard skills"},
+    { title: "Introdução", url: "intro.html", content: [{ id: "h2", text: "O que é a métodogia ágil." },] },
+    { title: "Scrum", url: "scrum.html", content: [{ id: "margin1", text: "O que é o método scrum?" }, { id: "margin2", text: "Quais os benefícios de usar o scrum?" }] },
+    { title: "Artefatos", url: "artefatos.html", content: [{ id: "margin3", text: "Backlog do produto." }, { id: "margin4", text: "Burndown" },{ id: "margin5", text: "User Story" },{ id: "margin6", text: "DOR E DOD" },{ id: "margin7", text: "MVP" }] },
+    { title: "Scrum Master", url: "master.html", content:  [{ id: "w", text: "O que é?" },] },
+    { title: "Product Owner", url: "po.html", content: [{ id: "h", text: "O que é?" },] },
+    { title: "Soft Skills", url: "softskills.html", content: [{ id: "margin8", text: "O que são?" },] },
 ];
+
 function searchSite() {
     const query = document.getElementById('searchInput').value.toLowerCase();
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '';
 
-    const results = pages.filter(page => 
-        page.title.toLowerCase().includes(query) || 
-        page.content.toLowerCase().includes(query)
-    );
-
-    results.forEach(page => {
-        const resultItem = document.createElement('div');
-        resultItem.innerHTML = `<a href="${page.url}">${page.title}</a>`;
-        resultsDiv.appendChild(resultItem);
+    pages.forEach(page => {
+        page.content.forEach(paragraph => {
+            if (paragraph.text.toLowerCase().includes(query)) {
+                const resultItem = document.createElement('div');
+                resultItem.innerHTML = `<a href="${page.url}#${paragraph.id}">${page.title}</a>: ${paragraph.text}`;
+                resultsDiv.appendChild(resultItem);
+            }
+        });
     });
 }
+
