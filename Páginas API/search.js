@@ -16,10 +16,16 @@ function searchSite() {
         page.content.forEach(paragraph => {
             if (paragraph.text.toLowerCase().includes(query)) {
                 const resultItem = document.createElement('div');
-                resultItem.innerHTML = `<a href="${page.url}#${paragraph.id}">${page.title}</a>: ${paragraph.text}`;
+                
+                resultItem.innerHTML = `
+                    <strong><a href="${page.url}#${paragraph.id}" style="color: #fff4a3;">${page.title}</a></strong> 
+                    <span style="color: white;">${paragraph.text}</span>
+                `;
+                
                 resultsDiv.appendChild(resultItem);
             }
         });
     });
 }
+
 
