@@ -19,8 +19,7 @@ body{
 .nav-link:hover{
     color:#fff4a3;
 }
-
-header{
+header h1{
     color: white;
     font-weight: 900;
     font-family: "Source Sans 3", bold;
@@ -48,18 +47,9 @@ footer{
     border-radius: 3cap;
     height: 35px;
     width: 160px;
-    padding: 4px;
     border: solid 1px white; 
     margin-left: 3%;
-    margin-top: 0%;
-}
-
-.fontep{
-    color: black !important;
-    text-decoration: none;
-    font-size: 17px;
-}
-
+} 
 .próximo {
     font-family: "Source Sans 3", bold;
     font-weight: 800;
@@ -70,9 +60,7 @@ footer{
     border: solid 1px black;
     height: 35px;
     width: 160px;
-    padding: 4px;
     margin-left:1%;
-    margin-top: 0%;
 }
 
 h1{
@@ -133,7 +121,7 @@ ol{
 }
 .home{
     display: flex; 
-    margin-top: -2%;
+    margin-top: -3%;
 }
 .home img{
     width: 50px;

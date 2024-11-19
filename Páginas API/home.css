@@ -11,6 +11,7 @@ nav ul{
     display:flex;
     justify-content: space-around ;
     list-style-type: none;
+    margin-top: 2%;
     }
 nav a{
     color:white;
