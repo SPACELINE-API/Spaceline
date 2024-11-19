@@ -672,6 +672,6 @@ h3{
     border-radius: 5px;
     cursor: pointer;
 }
-.btnopçoes:hover {
+.option-btn:hover {
     background-color: #a38812;
 }
