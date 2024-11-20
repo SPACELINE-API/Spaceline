@@ -319,8 +319,9 @@ input {
     width: 100%;
 }
 
-#modalburndown{
+#btnmodalburndown{
     background-color: #04AA6D;
+    border: none;
 }
 
 #atualizargrafico{
