@@ -329,6 +329,75 @@ input {
 
 }
 
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+td {
+    width: 350px;
+    height: 250px;
+}
+.drag-item {
+    width: 300px;
+    height: 80px;
+    padding: 5px;
+    background-color: rgb(204, 202, 54);
+    text-align: center;
+    margin-top: 30px;
+    cursor: grab;
+    border-radius: 25px;
+}
+
+#cell1{
+    background-color: #FF6F61;
+    border: 2px, solid #000000
+}
+
+#cell2{
+    background-color: #FFB88C;
+    border: 2px, solid #000000
+}
+
+#cell3{
+    background-color: #77DD77;
+    border: 2px, solid #000000
+}
+
+#cell4{
+    background-color: #FFEB99;
+    border: 2px, solid #000000
+}
+
+.containerbacklog {
+    display: flex; 
+    gap: 120px; 
+}
+
+#items, #items2 {
+    display: block;
+    width: 200px; 
+    margin-left: 35px;
+}
+
+.drag-item {
+    padding: 10px;
+    background-color: #d3d3d3;
+    text-align: center;
+    border-radius: 8px;
+    cursor: grab;
+    margin-bottom: 10px; 
+}
+
+#btnmodalbacklog{
+    background-color: #04AA6D;
+    border: none;
+}
+
+#fecharbacklog{
+    background-color: red;
+    border: none;
+}
+
 @media  screen and (max-width:768px){
     h1{
         font-size: 30px;

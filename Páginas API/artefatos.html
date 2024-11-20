@@ -83,6 +83,62 @@
             mais abaixo) e as tarefas devem ser divididas por de prioridade. Por fim, é essencial fazer uma estimativa
             para cada item do backlog, conforme o nível de dificuldade.
         </p>
+
+        <button id="btnmodalbacklog" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Faça você mesmo
+          </button>
+      
+          <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="myModalLabel">Backlog do produto</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <table id="tabela">
+                    <tr>
+                        <td id="cell1" ondrop="drop(event)" ondragover="allowDrop(event)">Essencial para o produto</td>
+                        <td id="cell2" ondrop="drop(event)" ondragover="allowDrop(event)">Deve ter, mas não é essencial</td>
+                    </tr>
+                    <tr>
+                        <td id="cell3" ondrop="drop(event)" ondragover="allowDrop(event)">Pode entrar, mas se os itens anteriores forem concluídos</td>
+                        <td id="cell4" ondrop="drop(event)" ondragover="allowDrop(event)">Não faz sentido ser realizado agora</td>
+                    </tr>
+                </table>
+                
+                <div class="containerbacklog">
+        
+                  <div id="items">
+                      <div id="item1" class="drag-item" draggable="true" ondragstart="drag(event)">Página inicial com destaque para promoções, categorias e produtos.</div>
+                      <div id="item2" class="drag-item" draggable="true" ondragstart="drag(event)">Exibir todos os produtos com filtro de categoria, preço e tamanho.</div>
+                      <div id="item3" class="drag-item" draggable="true" ondragstart="drag(event)">Página com detalhes de cada produto, como foco, descrição e tamanho.</div>
+                      <div id="item4" class="drag-item" draggable="true" ondragstart="drag(event)">Funcionalidade para adicionar produtos ao carrinho e visualizar o total.</div>
+                      <div id="item5" class="drag-item" draggable="true" ondragstart="drag(event)">Formulário para preenchimento de dados de entrega, pagamento e revisão de pedidos.</div>
+                      <div id="item6" class="drag-item" draggable="true" ondragstart="drag(event)">Formulário de contato com nome, e-mail e telefone.</div>
+                      <div id="item7" class="drag-item" draggable="true" ondragstart="drag(event)">Mapa interativo mostrando a localização da loja física.</div>
+                  </div>
+          
+                  <div id="items2">
+                      <div id="item8" class="drag-item" draggable="true" ondragstart="drag(event)">Permitir que os usuários enviem um feedback sobre o produto.</div>
+                      <div id="item9" class="drag-item" draggable="true" ondragstart="drag(event)">Cadastro de usuário (Login)</div>
+                      <div id="item10" class="drag-item" draggable="true" ondragstart="drag(event)">Integração com sistema de pagamento para aceitar cartões de crédito.</div>
+                      <div id="item11" class="drag-item" draggable="true" ondragstart="drag(event)">Enviar confirmação de pedidos, atualizações e promoções via e-mail.</div>
+                      <div id="item12" class="drag-item" draggable="true" ondragstart="drag(event)">Tornar o site responsivo.</div>
+                      <div id="item13" class="drag-item" draggable="true" ondragstart="drag(event)">Controle de estoque para não permitir a compra de produtos indisponíveis.</div>
+                      <div id="item14" class="drag-item" draggable="true" ondragstart="drag(event)">Implementar um site para suporte em tempo real para os clientes.</div>
+                  </div>
+              </div>
+      
+                </div>
+                <div class="modal-footer">
+                  <button id="fecharbacklog" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
     </section>
     <br>
     <br>
@@ -257,6 +313,7 @@
     </footer>
     </footer>
 
+    <script src="backlog.js"></script>
     <script src="burndown.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
