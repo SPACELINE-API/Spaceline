@@ -9,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../Logo Spaceline.jpg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -104,6 +106,76 @@
             estritamente a
             estimativa.
         </p>
+
+        <button id="modalburndown" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Faça você mesmo
+          </button>
+         
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <div class="modal-header">
+                  <h4 class="modal-title">Gráfico burndown</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+    
+                <div class="modal-body">
+                  
+                    <div class="burndown">
+                       
+                        <div class="input-group">
+                            <label for="expectativa1">Expectativa Tarefa 1 (Horas):</label>
+                            <input type="number" id="expectativa1">
+                            <label for="real1">Tempo Real Tarefa 1 (Horas):</label>
+                            <input type="number" id="real1">
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="expectativa2">Expectativa Tarefa 2 (Horas):</label>
+                            <input type="number" id="expectativa2">
+                            <label for="real2">Tempo Real Tarefa 2 (Horas):</label>
+                            <input type="number" id="real2">
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="expectativa3">Expectativa Tarefa 3 (Horas):</label>
+                            <input type="number" id="expectativa3">
+                            <label for="real3">Tempo Real Tarefa 3 (Horas):</label>
+                            <input type="number" id="real3">
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="expectativa4">Expectativa Tarefa 4 (Horas):</label>
+                            <input type="number" id="expectativa4">
+                            <label for="real4">Tempo Real Tarefa 4 (Horas):</label>
+                            <input type="number" id="real4">
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="expectativa5">Expectativa Tarefa 5 (Horas):</label>
+                            <input type="number" id="expectativa5">
+                            <label for="real5">Tempo Real Tarefa 5 (Horas):</label>
+                            <input type="number" id="real5">
+                        </div>
+                
+                        <button id="atualizargrafico" onclick="atualizarGrafico()">Atualizar Gráfico</button>
+                       
+                        <div class="chart-container">
+                            <canvas id="graficoComparacao"></canvas>
+                        </div>
+                    </div>
+    
+                </div>
+          
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
     </section>
     <br>
     <br>
@@ -184,4 +256,8 @@
             </div>
     </footer>
     </footer>
+
+    <script src="burndown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
