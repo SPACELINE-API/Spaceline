@@ -50,6 +50,9 @@ main h3{
     margin-top: 0;
     font-weight: 800;
 }
+main ul{
+    list-style-type: none;
+}
 input{
     background-color: #d9d9d9;
     height: 42px;
@@ -116,6 +119,7 @@ section ul{
     text-align: center;
     margin-top: 0;
     margin-left: 1%;
+    list-style-type: none;
 }
 footer{
     background-color: black;
