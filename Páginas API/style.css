@@ -15,7 +15,7 @@
 }
 
 .light-mode {
-    background: linear-gradient(to bottom, #9bc0c1, #004b70);
+    background: linear-gradient(to bottom, #9bc0c1, #0f6f9f);
 }.nav-item{
     display:flex;
     justify-content: space-around ;
@@ -80,10 +80,12 @@ footer{
 }
 .margin{
     margin-top: 3%;
-    margin-left: 4%;
+    margin-left: 2.5rem ;
     
 
 }
+
+
 section h2{
     color:#d4af37;
     font-family: "Source Sans 3";
@@ -94,8 +96,8 @@ section h2{
     margin-left: 1.5rem;
 }
 
-.light-mode h2{
-    color: #ab8918;
+.light-mode section h2{
+    color: #9c7d1f;
 }
 
 p{
@@ -104,7 +106,11 @@ p{
     font-family: "Lato";
     font-weight: 600;
     text-align: justify;
-    padding: 0 4rem;
+    padding: 0rem 4rem;
+}
+
+.dodp{
+    padding: 2rem 4rem;
 }
 
 
@@ -217,6 +223,8 @@ main{
     height: 280px;
     margin-left: 40%;
     margin-top: -5%;
+    justify-content: center;
+    align-items: center;
 }
 #imgartefatos{
     float:left;
@@ -228,11 +236,15 @@ main{
     border-radius: 1cap;
 
 }
-#burndown{
-    margin-left: 30%;
-    margin-top: 3%;
-    margin-bottom: -5%;
+#burndown {
+    display: flex;
+    padding: 1rem;
+    margin: 6vh auto;
+    justify-content: center;
+    position: relative;
+    width: 90vh; 
 }
+
 
 #imgdor{
     width: 250px;
@@ -350,7 +362,7 @@ input {
 }
 
 #btnmodalburndown{
-    background-color: #04AA6D;
+    background-color: #039660;
     border: none;
     margin-left: 4rem;
 }
@@ -494,7 +506,7 @@ input[type="checkbox"]:checked + label + .content {
     height: 50px;
 }
 
-/* Estilo para as mensagens do chat */
+
 #mensagens {
     max-height: 400px;
     overflow-y: auto;
