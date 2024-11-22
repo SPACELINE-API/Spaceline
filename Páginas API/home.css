@@ -327,6 +327,13 @@ footer:hover #footerContent {
     text-decoration: underline;
 }
 
+#foxy{
+    margin-left: 1040px;
+    height: 300px;
+    width: 300px;
+    margin-top: -240px;
+}
+
 @media (max-width: 768px) {
     footer {
         padding: 20px 0;
