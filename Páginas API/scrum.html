@@ -9,6 +9,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../Logo Spaceline.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../Logo Spaceline.jpg" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -123,6 +131,34 @@
                 avaliar o desempenho do time. </li>
         </ol>
     </section>
+
+    <button id="btncr" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        Simular Sprint Daily
+      </button>
+  
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+  
+            <div class="modal-header">
+              <h4 class="modal-title">Simulação de Sprint Daily</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+  
+            <div class="modal-body">
+                      <div id="container">
+                          <div id="mensagens"></div>
+                      </div>
+                </div>
+  
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
     <footer>
         <div class="anterior">
             <a class="btn" href="intro.html" style="color:white; font-size: 17px; font-weight: 800;" role="button">ANTERIOR</a>
@@ -137,6 +173,7 @@
     </footer>
 
     <script src="tema.js"></script>
+    <script src="chatd.js"></script>
     
 </body>
 </html>

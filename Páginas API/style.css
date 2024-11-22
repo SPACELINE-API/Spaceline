@@ -415,7 +415,6 @@ td {
     margin-left: 4%;
 }
 
-
 #fecharbacklog{
     background-color: red;
     border: none;
@@ -480,6 +479,63 @@ input[type="checkbox"]:checked + label + .content {
     border: none;
     width: 120px;
     height: 50px;
+}
+
+/* Estilo para as mensagens do chat */
+#mensagens {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.mensagem {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    width: 80%;
+    max-width: 90%;
+}
+
+.bot-mensagem {
+    background-color: #e2e3e5;
+    text-align: left;
+}
+
+.user-mensagem {
+    background-color: #04AA6D;
+    color: white;
+    text-align: right;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.btnopçoes {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    text-align: left;
+    border: none;
+    background-color:#04AA6D;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnopçoes:hover{
+    background-color: #d4af37;
+}
+
+.btn-primary{
+    margin-left: 60px;
+    border: none;
+    background-color: #04AA6D;
+}
+
+.btn-primary:hover{
+    background-color: #04AA6D;
 }
 
 @media  screen and (max-width:768px){
