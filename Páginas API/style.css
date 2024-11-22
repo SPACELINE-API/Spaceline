@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-body{  
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark-mode {
     background: linear-gradient(to bottom, #0c0d1e, #003336);
 }
-.nav-item{
+
+.light-mode {
+    background: linear-gradient(to bottom, #9bc0c1, #004b70);
+}.nav-item{
     display:flex;
     justify-content: space-around ;
     list-style-type: none;
@@ -67,6 +79,10 @@ h1{
     color: white;
     font-size: 50px;
 }
+
+.light-mode h1{
+    color: #000633;
+}
 .margin{
     margin-top: 3%;
     
@@ -81,17 +97,19 @@ h2{
     margin-top: 20px;
 }
 
+.light-mode h2{
+    color: #ab8918;
+}
+
 p{
-    color: whitesmoke;
+    color: aliceblue;
     font-size: x-large;
     font-family: "Lato";
     font-weight: 900;
+    text-align: justify;
+    padding: 0 4rem;
 }
 
-section{
-    margin-left: 50px;
-    
-}
 
 ol{
     color: whitesmoke;
@@ -99,6 +117,16 @@ ol{
     font-weight: 900;
     font-family: "Source Sans 3";
     margin-left: 0px;
+    text-align: justify;
+    padding: 0 4rem;
+}
+
+.light-mode ol{
+    color:#0f122f;
+}
+
+.light-mode ol li::marker {
+    color: #886a07;
 }
     
 
@@ -139,7 +167,11 @@ ol{
     justify-content:baseline;
     gap: 80px;
 }
-
+main{
+    margin: 3rem;
+    align-items: center;
+    justify-content: center;
+}
 #introimg{
     width: 360px;
     height:310px;
@@ -155,14 +187,16 @@ ol{
     font-weight: 800;
     width: 500px;
     height: 35px;
-    font-size: 18px;
+    font-size: 50px;
 }
 
 #resumo{
     background-color: #04AA6D;
-    width: 200px;
-    height: 160px;
-    border-radius: 3cap;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1.8cap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .resumo h3{
@@ -321,11 +355,13 @@ td {
     height: 250px;
 }
 .drag-item {
+    display: flex;
     width: 300px;
     height: 80px;
     padding: 5px;
     background-color: rgb(204, 202, 54);
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     margin-top: 30px;
     cursor: grab;
     border-radius: 25px;
@@ -375,6 +411,7 @@ td {
     background-color: #04AA6D;
     border: none;
 }
+
 
 #fecharbacklog{
     background-color: red;

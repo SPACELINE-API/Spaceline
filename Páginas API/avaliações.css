@@ -1,22 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark-mode {
     background-color: #0c0d1e;
 }
+
+.light-mode {
+    background-color: #9bc0c1;
+}
+
 header p{
     color: white;
     font-weight: 800;
     font-family: "Source Sans 3", bold;
     font-style: normal;
-    margin-top: 3px;
+    margin-top: 2rem;
     margin-bottom: 0px;
-    margin-left: 7px; 
+    margin-left: 2rem; 
     font-size: 65px;
 }
+
+.light-mode header p{
+    color: #030528;
+}
+
 #teste{
     margin-top: 0px; 
-    margin-left: 55px;
+    margin-left: 4rem;
     font-size: 35px; 
     color:#d4af37;
+}
+
+.light-mode #teste{
+    color: #ab8918;
 }
 
 section p{
@@ -25,21 +46,33 @@ section p{
     font-family: "Source Sans 3";
     font-weight: 650;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 4.2rem;
 }
+
+.light-mode section p{
+    color:#ab8918 ;
+}
+
 section h5{
     color: white;
     font-weight: 400; 
     text-align: justify;
-    margin:37px;
+    margin:1rem 6rem 0;
     font-size: 2.0vw;
+    font-family: lato;
 }
+
+.light-mode section h5{
+    color: aliceblue;
+}
+
 .detail{
     display: flex;
     margin-left: 21%;
     margin-top: 5%;
     margin-right: 0px;
 }
+
 .quadrado{
     border-radius: 7px;
     background-color: #04aa6d;
@@ -47,31 +80,42 @@ section h5{
     width: 35px;
     margin-bottom: 0px;
 }
+
+.light-mode .quadrado{
+    background-color: #1490dc;
+}
+
 .pergunta p{
     color: white; 
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 20px;
     margin-top: 0;
-    padding-left: 10px;
+    padding-left: 0.8rem;
     margin-right: 85px;
     text-align: left;
 }
+
+.light-mode .pergunta p{
+    color: #ffffff;
+}
+
 .item{
     display: flex;
     padding: 5px;
     justify-content: center;
-    
-
 }
+
 .imagem{ 
     margin-left: 2%;
     margin-top: 0.5%;
 }
+
 .respostas{
     border-radius: 1%;
     margin-left: 1%;
 }
+
 .btn{
     border:#d9d9d9;
     background-color: #d9d9d9;
@@ -89,11 +133,107 @@ section h5{
     cursor: pointer;
 }
 
+.resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#feedback {
+    font-weight: bold;
+}
+
+#percentual {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+#enviarBtn {
+    align-items: center;
+    background-image: linear-gradient(144deg, #6842f3, #bdb82e 50%, #43d8d5);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    width: 11rem;
+    height: 3.5rem;
+    padding: 0.3rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+}
+
+#enviarBtn span {
+    background-color: rgb(5, 6, 45);
+    padding: 0.6rem;
+    border-radius: 6px;
+    width: 15rem;
+    height: 3rem;
+    transition: 300ms;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#enviarBtn:hover span {
+    background: none;
+}
+
+.certificado {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.certificado h2 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.certificado p {
+    font-size: 1.5em;
+    color: #7f8c8d;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    .button-64 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+#enviarBtn:active,
+#enviarBtn:hover {
+    outline: 0;
+}
+
 .respostas1{
     border-radius: 1%;
     margin-left: 1%;
-  
 }
+
 .btn1{
     border:#d9d9d9;
     background-color: #d9d9d9;
@@ -101,21 +241,33 @@ section h5{
     margin-top: 0;
     font-size: 15px;
     text-align: left;
-    padding-bottom: 2px;
+    align-items: center;
+    justify-content: left;
+    padding: 1.2rem;
     font-family: "Lato", sans-serif;
     font-weight:800;
     border-radius: 1%;
     height: 48px;
     width: 750px;
     cursor: pointer;
+    display: flex;
+}
 
+button:disabled {
+    background-color: #d9d9d9;
+    cursor: not-allowed;
+}
+
+.answered{
+    color: #000000;
 }
 
 .correct {
     background: linear-gradient(150deg, rgba(17, 125, 43, 0.7), rgba(40, 167, 69, 0.1));
     box-shadow: 0 0 20px rgba(23, 240, 74, 0.9);
     border-radius: 1px; 
-    padding: 3px;} 
+    padding: 3px;
+} 
 
 .incorrect{
     background: linear-gradient(150deg, rgba(226, 34, 34, 0.7), rgba(139, 8, 8, 0.1));
@@ -123,17 +275,23 @@ section h5{
     border-radius: 1px;
     padding: 3px;
 } 
+
+.light-mode .incorrect{
+    background: linear-gradient(150deg, rgba(165, 0, 0, 0.7), rgba(255, 0, 0, 0.462));
+    box-shadow: 0 0 20px rgba(113, 0, 0, 0.9); 
+}
+
 footer{
     margin-bottom: 60px;
     margin-top: 110px;
     display: flex;
     justify-content: center;
-    margin-left: 5%;
-
 }
+
 .home{
     display: inline-block; 
 }
+
 .home img{
      width: 60px;
 }
@@ -162,7 +320,6 @@ footer{
     }
     .quadrado{
         margin-left: -9%;
-    
     }
     .pergunta p{
         font-size: 17px;
@@ -174,9 +331,9 @@ footer{
     }
     .detail{
         margin-left: 19%;
-
     }
 }
+
 @media  screen and (max-width:412px) {
     section h5{
         font-size: 16px;
@@ -210,7 +367,6 @@ footer{
     }
     .quadrado{
         display: none;
-    
     }
     .pergunta p{
         font-size: 15px;
@@ -222,6 +378,7 @@ footer{
         padding: 0;
     }
 }
+
 @media screen and (max-width:520px) {
     section h5{
         font-size: 20px;
@@ -253,7 +410,6 @@ footer{
     }
     .quadrado{
         display: none;
-    
     }
     .pergunta p{
         font-size: 15px;
