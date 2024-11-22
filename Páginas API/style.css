@@ -36,8 +36,8 @@ header h1{
     font-weight: 900;
     font-family: "Source Sans 3", bold;
     font-style: normal;
-    font-size: 65px;
     margin-top: 2%;
+    font-size: 65px;
 }
 
 footer{
@@ -74,12 +74,6 @@ footer{
     margin-left:1%;
 }
 
-h1{
-    color: white;
-    font-size: 50px;
-    margin-left: 4%;
-}
-
 .light-mode h1{
     color: #000633;
 }
@@ -93,7 +87,7 @@ h2{
     color:#d4af37;
     font-family: "Source Sans 3";
     font-weight: 900;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 50px;
     margin-top: 20px;
 }
@@ -521,32 +515,35 @@ input[type="checkbox"]:checked + label + .content {
         height: 250px; 
     }
     #burndown{
-        margin-left: 10%;
+        margin-left: 15%;
         width: 500px;
-        margin-bottom: 5%;
     }
     #imgdor{
-        width: 210px;
-        height: 170px;
+        width: 170px;
+        height: 140px;
         margin-right: 3%;
+        margin-left: 2%;
     }
     #imgdod{
-        width: 210px;
-        height: 170px;
+        width: 170px;
+        height: 140px;
         margin-right: 2%;
+        margin-left: 2%;
     }
     #imgsoftskills{
         width: 300px;
         height: 250px;
+        margin-top: 12% ;
     }
     #hardesoftimg{
         width: 300px;
         height: 250px;
-        margin-right: 5%;
+        margin-right: 0%;
     }
     #img{
         width: 280px;
         height: 230px;
+        margin-left: 25%;
     }
     #alinhar{
         width: 650px;
@@ -574,7 +571,16 @@ input[type="checkbox"]:checked + label + .content {
     #mvpimg{
         width: 500px;
         height: 200px;
-        margin-left: 10%;
+        margin-left: 15%;
+    }
+    #btnmodalburndown{
+        margin-left: 35%;
+    }
+    #btnmodalbacklog{
+        margin-left: 35%;
+    }
+    #resumo{
+        
     }
 }
 
@@ -691,13 +697,15 @@ input[type="checkbox"]:checked + label + .content {
 }
 
 @media  screen and (max-width:412px){
-    h1{
-        font-size: 30px;
+    header h1{
+        font-size: 45px;
         margin-top: 50px;
+        margin-left: 4%;
         
     }
     h2{
-        font-size: 20px;
+        font-size: 30px;
+        margin-top: 2%;
     }
     .alinhar{
         display: block;
@@ -711,36 +719,39 @@ input[type="checkbox"]:checked + label + .content {
         margin-bottom: 2%;
     }
     p{
-        font-size: 16px; 
+        font-size: 20px; 
+        width: 100%;
    }
     ol{
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 15px;
     }
     #introimg{
         width: 200px;
         height:180px;
-        margin-left: 15%;
+        margin-left: 20%;
         float: inherit;
     }
     #imgscrum{
         width: 230px;
         height: 200px; 
-        margin-left: 10%;
+        margin-left: 18%;
         float: inherit;
     }
     #timescrum{
         width: 230px;
         height: 200px; 
         float: inherit;
-        margin-left: 10%;
+        margin-left: 18%;
     }
     #imgartefatos{
-        width: 150px;
-        height: 150px; 
+        width: 280px;
+        height: 160px; 
+        float: inherit;
+        margin-left: 15%;
     }
     #burndown{
-        margin-left: 0%;
+        margin-left: 15%;
         width: 300px;
         margin-bottom: 5%;
     }
@@ -748,13 +759,20 @@ input[type="checkbox"]:checked + label + .content {
         width: 140px;
         height: 120px;
         float: initial;
+        margin-left: 12%;
+        margin-top: 5%;
     }
     #imgdod{
         width: 140px;
         height: 120px;
         float: initial;
         margin-top: 5%;
+        margin-left: 3%;
     }
+    #btnmodalburndown{
+        margin-left: 25%;
+    }
+
     h3{
         width: 70px;
         height: 10px;
@@ -762,50 +780,48 @@ input[type="checkbox"]:checked + label + .content {
         font-size: 12px;
     }
     #imgsoftskills{
-        width: 240px;
-        height: 200px;
+        width: 300px;
+        height: 230px;
         float: initial;
-        margin-left: 16%;
+        margin-left: 10%;
+        margin-top: -3%;
     }
     #hardesoftimg{
-        width: 240px;
-        height: 200px;
+        width: 300px;
+        height: 230px;
         float: initial;
-        margin-left: 8%;
+        margin-left: 17%;
+    }
+
+    #btnmodalbacklog{
+        margin-left: 25%;
     }
     #img{
         width: 230px;
         height: 190px;
-        margin-left: 10%;
+        margin-left: 25%;
+    }
+    #responsividadems{
+        width: 400px;
+    }
+    #responsividade{
+        font-size: 20px;
+        width: 400px;
+        margin-right: 10%;
     }
     #alinhar{
         width: 310px;
     }
-    .resumo h3{
-        padding-top: 20px;
-        font-size: 14px;
-
-    }
     #resumo{
-        width: 110px;
-        height: 80px;
+        width: 120px;
+        height: 110px;
+        font-size: 15px;
 
-    }
-    h3{
-        width: 230px;
-        height: 25px;
-        font-size: 18px;
-    }
-    
-    #h3branco{
-        width: 230px;
-        height: 25px;
-        font-size: 18px;
     }
     #mvpimg{
         width: 270px;
         height: 150px;
-        margin-left: 5%;
+        margin-left: 15%;
     }
     .home{
         gap:100px;
@@ -821,5 +837,14 @@ input[type="checkbox"]:checked + label + .content {
     .próximo{
         width: 130px;
         margin-left: 2%;
+    }
+    #resumo{
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .resumo h3{
+        font-size: 11px;
+        padding-bottom: 10px;
     }
 }
