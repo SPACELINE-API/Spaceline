@@ -11,6 +11,7 @@ nav ul{
     display:flex;
     justify-content: space-around ;
     list-style-type: none;
+    margin-top: 2%;
     }
 nav a{
     color:white;
@@ -48,6 +49,9 @@ main h3{
     color:#fff4a3;
     margin-top: 0;
     font-weight: 800;
+}
+main ul{
+    list-style-type: none;
 }
 input{
     background-color: #d9d9d9;
@@ -115,35 +119,15 @@ section ul{
     text-align: center;
     margin-top: 0;
     margin-left: 1%;
+    list-style-type: none;
 }
-footer{
-    background-color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-footer h3{
-    font-family: "Exo 2";
-    color:#fff4a3;
-    font-size: 20px;
-    font-weight: 800;
-}
-footer p{
-    color:white;
-    font-family: "Exo 2";
-    font-weight: 700;
-    font-size: 17px;
+footer {
+   img {
+    width: 100px;
+   }
 }
 
-footer a{
-    font-family: "Source Sans 3";
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-}
+  
 
 @media screen and (max-width:768px){
     nav{

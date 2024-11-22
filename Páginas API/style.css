@@ -19,13 +19,12 @@ body{
 .nav-link:hover{
     color:#fff4a3;
 }
-
-header{
+header h1{
     color: white;
     font-weight: 900;
     font-family: "Source Sans 3", bold;
     font-style: normal;
-    font-size: 30px;
+    font-size: 65px;
     margin-left: 50px;
     margin-top: 2%;
 }
@@ -48,18 +47,9 @@ footer{
     border-radius: 3cap;
     height: 35px;
     width: 160px;
-    padding: 4px;
     border: solid 1px white; 
     margin-left: 3%;
-    margin-top: 0%;
-}
-
-.fontep{
-    color: black !important;
-    text-decoration: none;
-    font-size: 17px;
-}
-
+} 
 .próximo {
     font-family: "Source Sans 3", bold;
     font-weight: 800;
@@ -70,24 +60,23 @@ footer{
     border: solid 1px black;
     height: 35px;
     width: 160px;
-    padding: 4px;
     margin-left:1%;
-    margin-top: 0%;
 }
 
 h1{
     color: white;
     font-size: 50px;
 }
-#margin{
-    margin-top: 8%;
-    margin-bottom: -0.5%;
+.margin{
+    margin-top: 3%;
+    
+
 }
 h2{
     color:#d4af37;
     font-family: "Source Sans 3";
     font-weight: 900;
-    font-size: xx-large;
+    font-size: 35px;
     margin-bottom: 50px;
     margin-top: 20px;
 }
@@ -133,7 +122,7 @@ ol{
 }
 .home{
     display: flex; 
-    margin-top: -2%;
+    margin-top: -3%;
 }
 .home img{
     width: 50px;
@@ -157,21 +146,6 @@ ol{
     float:inline-start;
     margin-right: 2%;
     margin-top: -2%;
-}
-
-h3{
-    background-color: black;
-    width: 500px;
-    height: 35px;
-    padding: 8px;
-    color: white;
-    font-family: 'Source Sans 3';
-    font-weight: 800;
-    text-align: center;
-    font-size: 18px;
-}
-.userstory{
-    display: inline;
 }
 
 #h3branco{
@@ -279,13 +253,132 @@ h3{
     margin-top: 3%;
     margin-bottom: -5%;
 }
-#qpo{
-    margin-top: 1%;
-    text-align: left;
-}
 
 #alinhar{
     width: 1350px;
+}
+
+
+.burndown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+input {
+    padding: 8px;
+    width: 120px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#modalburndown {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+#btnmodalburndown{
+    background-color: #04AA6D;
+    border: none;
+}
+
+#atualizargrafico{
+    background-color:#04AA6D;
+    border: none;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+td {
+    width: 350px;
+    height: 250px;
+}
+.drag-item {
+    width: 300px;
+    height: 80px;
+    padding: 5px;
+    background-color: rgb(204, 202, 54);
+    text-align: center;
+    margin-top: 30px;
+    cursor: grab;
+    border-radius: 25px;
+}
+
+#cell1{
+    background-color: #FF6F61;
+    border: 2px, solid #000000
+}
+
+#cell2{
+    background-color: #FFB88C;
+    border: 2px, solid #000000
+}
+
+#cell3{
+    background-color: #77DD77;
+    border: 2px, solid #000000
+}
+
+#cell4{
+    background-color: #FFEB99;
+    border: 2px, solid #000000
+}
+
+.containerbacklog {
+    display: flex; 
+    gap: 120px; 
+}
+
+#items, #items2 {
+    display: block;
+    width: 200px; 
+    margin-left: 35px;
+}
+
+.drag-item {
+    padding: 10px;
+    background-color: #d3d3d3;
+    text-align: center;
+    border-radius: 8px;
+    cursor: grab;
+    margin-bottom: 10px; 
+}
+
+#btnmodalbacklog{
+    background-color: #04AA6D;
+    border: none;
+}
+
+#fecharbacklog{
+    background-color: red;
+    border: none;
 }
 
 @media  screen and (max-width:768px){
@@ -493,7 +586,6 @@ h3{
     }
 }
 
-
 @media  screen and (max-width:412px){
     h1{
         font-size: 30px;
@@ -626,52 +718,4 @@ h3{
         width: 130px;
         margin-left: 2%;
     }
-}
-
-.btabrirmodal{
-    background-color:#04aa6d;
-    font-family: "Lato", sans-serif;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
-    border: none;
-}
-
-#container {
-    width: 470px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-.mensagem {
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 8px;
-    color: #333;
-}
-.user-message {
-    background-color: #d1e7dd;
-    text-align: right;
-}
-.bot-mensagem {
-    background-color: #e9ecef;
-    text-align: left;
-}
-.options {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-}
-.btnopçoes {
-    margin: 5px 0;
-    padding: 8px;
-    background-color: #04aa6d;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.btnopçoes:hover {
-    background-color: #a38812;
 }
