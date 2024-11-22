@@ -8,18 +8,30 @@
 }
 
 .dark-mode {
-    background: url(imagens/wave.png);
-    background-repeat: no-repeat;
-    background-position: 0 22rem;
     background-color: #0c0d1e;
 }
 
 .light-mode {
-    background: url(imagens/wave-light.png);
-    background-repeat: no-repeat;
-    background-position: 0 22rem;
-    background-color: #9bc0c1;
+        background-color: #9bc0c1;
 }
+
+body.light-mode .wave.light-mode {
+    display: block; 
+}
+body.light-mode .wave.dark-mode {
+    display: none; 
+}
+
+
+body.dark-mode .wave.light-mode {
+    display: none; 
+}
+
+body.dark-mode .wave.dark-mode {
+    display: block; 
+}
+
+
 
 
 nav ul {
@@ -156,13 +168,11 @@ main a:hover {
 
 /* Seções 1 */
 section {
-    margin-top: 20%;
     padding: 2rem 1rem;
     background-color: #00575c;
 }
 
 .light-mode section{
-    margin-top: 20%;
     padding: 2rem 1rem;
     background-color: #0c78b0;
 }
@@ -269,10 +279,27 @@ footer {
     padding: 4px 0;
     font-family: "Source Sans 3", sans-serif;
     overflow: hidden;
+    position: relative;
 }
 
 footer img {
-    width: 100px;
+    width: 16vh;
+}
+
+#spacelineLogo {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+#raposo {
+    width: 11vw;  
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    right: -10vw;  
+    bottom: -10vh;  
+    transform: translateX(50%);  
+    margin: 0 2rem;
 }
 
 .footer-header {
@@ -295,13 +322,19 @@ footer img {
     flex-wrap: wrap;
     gap: 20px;
     transition: all 0.3s ease-out;
-    transform: translateY(100%);    
+    transform: translateY(100%);
 }
 
 footer:hover #footerContent {
     display: flex;
     transform: translateY(0);
     padding-top: 1rem;
+}
+
+footer:hover #raposo {
+    opacity: 1;
+    right: 5vw;  
+    bottom: 5vh; 
 }
 
 .footer-column {
@@ -314,12 +347,12 @@ footer:hover #footerContent {
     text-transform: uppercase;
 }
 
-.footer-column p  {
+.footer-column p {
     text-align: justify;
 }
 
 .footer-column a {
-    color: #6c757d, s;
+    color: #6c757d;
     text-decoration: none;
 }
 
@@ -327,62 +360,8 @@ footer:hover #footerContent {
     text-decoration: underline;
 }
 
-#foxy{
-    margin-left: 1040px;
-    height: 300px;
-    width: 300px;
-    margin-top: -240px;
-}
-
-@media (max-width: 768px) {
-    footer {
-        padding: 20px 0;
-    }
-
-    #footerContent {
-        display: block;
-    }
-}
-
 /* Responsividade */
 @media (max-width: 768px) {
-    nav ul {
-        display: none; 
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        position: absolute;
-        top: 50px; 
-        left: 0;
-        z-index: 10;
-    }
-
-    nav ul.active {
-        display: flex;
-    }
-
-    nav a {
-        font-size: 18px;
-        padding: 10px;
-    }
-
-    nav .menu-toggle {
-        display: block;
-        font-size: 30px;
-        color: white;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        z-index: 20;
-        position: absolute;
-        top: 10px;
-        right: 20px;
-    }
-
-    main h1 {
-        font-size: 10vw; 
-    }
-
     footer {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -399,9 +378,29 @@ footer:hover #footerContent {
     footer a {
         font-size: 13px;
     }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    #footerContent {
+        display: block;
+    }
+
+    #raposo {
+        width: 20vw;  /* Tamanho maior da raposa em telas menores */
+        right: -15vw;  /* Colocando a raposa para fora da tela, com espaço para animar */
+        bottom: -10vh;  /* A raposa começa fora da tela também */
+    }
+
+    footer:hover #raposo {
+        opacity: 1;
+        right: 5vw;  /* Ajuste da raposa para aparecer a 5vw da borda direita */
+        bottom: 5vh;  /* Ajuste da raposa para aparecer mais perto do fundo */
+    }
 }
 
-
+    
 /* butão :) */
 
 .switch {

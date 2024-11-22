@@ -33,3 +33,7 @@ function loadTheme() {
 }
 
 window.onload = loadTheme;  
+
+const theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+document.body.setAttribute('data-theme', theme);
+
