@@ -447,6 +447,38 @@ input[type="checkbox"]:checked + label + .content {
     height: 900px;
 }
 
+.question input[type="radio"] {
+    margin-right: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.question {
+    color: #000; 
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    background-color: #f2f2f2;
+}
+.question input[type="radio"] {
+    margin-right: 10px;
+}
+
+#resultadosk{
+    background-color: #04AA6D;
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    height: 50px;
+}
+
 @media  screen and (max-width:768px){
     h1{
         font-size: 30px;
