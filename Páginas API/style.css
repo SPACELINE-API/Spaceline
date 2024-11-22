@@ -381,6 +381,35 @@ td {
     border: none;
 }
 
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    background-color:#04AA6D;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    width: 210px;
+    text-align: left;
+}
+
+input[type="checkbox"]:checked + label + .content {
+    display: block;
+}
+
+.content {
+    display: none;
+    background-color: white;
+}
+
+#imggabarito{
+    width: 600px;
+    height: 900px;
+}
+
 @media  screen and (max-width:768px){
     h1{
         font-size: 30px;
