@@ -35,7 +35,7 @@ Desenvolver um sistema web que explique os processos e artefatos da Scrum, tendo
 Apresentação das funcionalidades.
 Clique na imagem abaixo para uma demonstração.
 
-[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://youtu.be/hHUzkHtXbNk)
+[(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://youtu.be/nUbAAqzZpUc)
 
 ## MVP
 ![MVP da equipe spaceline](https://github.com/SPACELINE-API/Spaceline/blob/main/P%C3%A1ginas%20API/imagens/WhatsApp%20Image%202024-10-26%20at%2013.00.13.jpeg)
