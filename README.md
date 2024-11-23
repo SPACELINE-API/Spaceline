@@ -40,16 +40,9 @@ Clique na imagem abaixo para uma demonstração.
 ## MVP
 ![MVP da equipe spaceline](https://github.com/SPACELINE-API/Spaceline/blob/main/P%C3%A1ginas%20API/imagens/WhatsApp%20Image%202024-10-26%20at%2013.00.13.jpeg)
 
-## Tecnologias Utilizadas
+##:desktop_computer: Tecnologias Utilizadas
 
-* Jira Software
-* Canva
-* Visual Code Studio
-* HTML
-* CSS
-* Javascript
-* Figma
-* Microsoft Excel
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=jira,canva,vscode,html,css,js,figma,excel,flask,aws,bootstrap,git,github)
 
 
 
