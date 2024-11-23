@@ -16,12 +16,11 @@
 }
 
 body.light-mode .wave.light-mode {
-    display: block; 
+    display: block;
 }
 body.light-mode .wave.dark-mode {
     display: none; 
 }
-
 
 body.dark-mode .wave.light-mode {
     display: none; 
@@ -31,8 +30,46 @@ body.dark-mode .wave.dark-mode {
     display: block; 
 }
 
+.wave {
+    position: relative;
+    width: 100%;
+    height: auto; 
+    background: linear-gradient(#0c0d1e 89%, #00575c); 
 
+}
 
+.light-mode.wave {
+    position: relative;
+    width: 100%;
+    height: auto; 
+    background: linear-gradient(#9bc0c1 90%, #0c78b0); 
+}
+
+.light-mode.wave::after {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 10px; 
+    background: linear-gradient(#9bc0c1 10%, #0c78b0); 
+}
+
+.svg-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto; /* Ajuste conforme o tamanho do seu SVG */
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Ajuste conforme o tamanho da linha que você deseja cobrir */
+    background-color: #00575c; /* Use a cor de fundo que você deseja (a cor de fundo da sua página ou cor de fundo do SVG) */
+    z-index: 9999;
+}
 
 nav ul {
     display: flex;
@@ -40,11 +77,7 @@ nav ul {
     list-style-type: none;
     margin-top: 1.2rem;
     transition: 0.1s;
-}
-
-nav a:hover {
-    color: #e2d678;
-    transition: 0.1s;
+    padding: 0;
 }
 
 nav a {
@@ -54,11 +87,13 @@ nav a {
     font-size: 20px;
 }
 
+nav a:hover {
+    color: #e2d678;
+    transition: 0.1s;
+}
+
 .light-mode nav a {
     color: #000633;
-    text-decoration: none;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 20px;
     transition: 0.1s;
 }
 
@@ -67,6 +102,7 @@ nav a {
     transition: 0.1s;
 }
 
+/*Aprenda*/
 main {
     text-align: center;
     margin-top: 10%;
@@ -168,13 +204,14 @@ main a:hover {
 
 /* Seções 1 */
 section {
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
     background-color: #00575c;
 }
 
 .light-mode section{
     padding: 2rem 1rem;
     background-color: #0c78b0;
+    border-top: 10px solid #0c78b0;
 }
 
 section h1 {
@@ -280,6 +317,8 @@ footer {
     font-family: "Source Sans 3", sans-serif;
     overflow: hidden;
     position: relative;
+    width: 100%; /* Garante que o footer ocupe 100% da largura */
+    box-sizing: border-box; /* Evita que o padding faça o footer ultrapassar o limite */
 }
 
 footer img {
@@ -292,13 +331,13 @@ footer img {
 }
 
 #raposo {
-    width: 11vw;  
+    width: 11vw;
     opacity: 0;
     transition: opacity 0.3s ease;
     position: absolute;
-    right: -10vw;  
-    bottom: -10vh;  
-    transform: translateX(50%);  
+    right: -10vw;
+    bottom: -10vh;
+    transform: translateX(50%);
     margin: 0 2rem;
 }
 
@@ -333,8 +372,8 @@ footer:hover #footerContent {
 
 footer:hover #raposo {
     opacity: 1;
-    right: 5vw;  
-    bottom: 5vh; 
+    right: 5vw;
+    bottom: 5vh;
 }
 
 .footer-column {
@@ -362,9 +401,17 @@ footer:hover #raposo {
 
 /* Responsividade */
 @media (max-width: 768px) {
-    footer {
-        padding-top: 20px;
-        padding-bottom: 20px;
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav ul li:not(.switch) {
+        display: none;
+    }
+    
+    .switch {
+        margin-right: 1rem;
     }
 
     footer h3 {
@@ -380,7 +427,9 @@ footer:hover #raposo {
     }
 
     footer {
-        padding: 20px 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
     }
 
     #footerContent {
@@ -388,16 +437,67 @@ footer:hover #raposo {
     }
 
     #raposo {
-        width: 20vw;  /* Tamanho maior da raposa em telas menores */
-        right: -15vw;  /* Colocando a raposa para fora da tela, com espaço para animar */
-        bottom: -10vh;  /* A raposa começa fora da tela também */
+        width: 20vw;
+        right: -15vw;
+        bottom: -10vh;
     }
 
     footer:hover #raposo {
         opacity: 1;
-        right: 5vw;  /* Ajuste da raposa para aparecer a 5vw da borda direita */
-        bottom: 5vh;  /* Ajuste da raposa para aparecer mais perto do fundo */
+        right: 5vw;
+        bottom: 5vh;
     }
+
+}
+
+@media screen and (max-width: 412px) {
+    nav ul {
+        justify-content: center; 
+    }
+    
+    .switch {
+        margin-right: 0; 
+    }
+    
+    .switch__label {
+        width: 60px; 
+        height: 28px;
+    }
+    
+    .switch__indicator {
+        width: 18px;
+        height: 18px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    footer h3 {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer a {
+        font-size: 12px;
+    }
+
+    
+
+    #raposo {
+        width: 30vw;
+        right: -10vw;
+        bottom: -5vh;
+    }
+
+    footer:hover #raposo {
+        right: 2vw;
+        bottom: 2vh;
+    }
+
 }
 
     
