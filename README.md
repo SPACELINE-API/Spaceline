@@ -4,7 +4,7 @@ Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividad
 
 # Índice
 * [Objetivo do Projeto](#objetivo-do-projeto)
-* [Funcionalidades e registros (vídeos e apresentações) das sprints](#funcionalidades-e-registros-(vídeos-e-apresentações)-das-sprints)
+* [Demonstrações das sprints](#Demostrações-das-sprints)
 * [Backlog do produto](#Backlog-do-produto)
 * [Competências desenvolvidas](#competências-desenvolvidas)
 * [Autores](#autores)
@@ -30,7 +30,7 @@ Sprint | Previsão | Status|
 # Objetivo do Projeto
 Desenvolver um sistema web que explique os processos e artefatos da Scrum, tendo conceitos e fundamentos com referências e exemplos para a compreensão do usuário. Criar um formulário para avaliações parciais e final (com totalização). O Sistema deve ter foco na disseminação dos processos para que os usuários possam replicar todos os passos em futuros desenvolvimentos. A prioridade secundária será a compreensão de Skills importantes para um profissional de TI. Todo o material de conhecimento publicado no sistema deverá ter forma indireta (Conhecimento adquirido e repassado pelos desenvolvedores). Bem como toda a documentação de desenvolvimento deverá ser lastreado no GitHub com todos os processos necessários para a fidelização do cliente.
 
-# Funcionalidades e registros (vídeos e apresentações) das sprints
+# Demostrações das sprints
 
 Apresentação das funcionalidades.
 Clique na imagem abaixo para uma demonstração.
