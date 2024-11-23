@@ -58,7 +58,7 @@ body.dark-mode .wave.dark-mode {
 .svg-wrapper {
     position: relative;
     width: 100%;
-    height: auto; /* Ajuste conforme o tamanho do seu SVG */
+    height: auto; 
     overflow: hidden;
 }
 
@@ -66,8 +66,7 @@ body.dark-mode .wave.dark-mode {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 20px; /* Ajuste conforme o tamanho da linha que você deseja cobrir */
-    background-color: #00575c; /* Use a cor de fundo que você deseja (a cor de fundo da sua página ou cor de fundo do SVG) */
+    background-color: #00575c; 
     z-index: 9999;
 }
 
@@ -202,7 +201,7 @@ main a:hover {
     transition: 0.3s;
 }
 
-/* Seções 1 */
+/* Seção 1 */
 section {
     padding: 2rem 1.5rem;
     background-color: #00575c;
@@ -317,8 +316,8 @@ footer {
     font-family: "Source Sans 3", sans-serif;
     overflow: hidden;
     position: relative;
-    width: 100%; /* Garante que o footer ocupe 100% da largura */
-    box-sizing: border-box; /* Evita que o padding faça o footer ultrapassar o limite */
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 footer img {
