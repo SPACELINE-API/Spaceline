@@ -662,6 +662,7 @@ input[type="checkbox"]:checked + label + .content {
     #btnmodalbacklog{
         margin-left: 35%;
     }
+}
    
 
 @media  screen and (max-width:520px){
