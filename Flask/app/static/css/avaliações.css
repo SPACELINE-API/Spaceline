@@ -296,127 +296,150 @@ footer{
      width: 60px;
 }
 
-@media  screen and (max-width:768px) {
-    section h5{
+@media screen and (max-width: 768px) {
+    section h5 {
         font-size: 25px;
     }
 
-    .btn1{
+    .btn1 {
         font-size: 15px;
         height: 57px;
         width: 570px;
         padding-top: 4px;
+        margin-left: 5%;
     }
-    .imagem{
-        margin-left: 12%;
+
+    .imagem {
+        margin-left: 5%;  
         margin-top: 1.5%;
     }
-    .btn{
+
+    .btn {
         justify-content: center;
         height: 45px;
         width: 575px;
         cursor: pointer;
         font-size: 14px;
+        margin-left: 5%;
     }
-    .quadrado{
-        margin-left: -9%;
+
+    .quadrado {
+        margin-left: -6%;  
+        display: block;  
     }
-    .pergunta p{
+
+    .pergunta p {
         font-size: 17px;
         margin-top: 1%;
+        margin-left: -2%;  
     }
-    .item{
+
+    .item {
         margin-top: 2%;
         padding: 0;
     }
-    .detail{
-        margin-left: 19%;
+
+    .detail {
+        margin-left: 10%;
     }
 }
 
-@media  screen and (max-width:412px) {
-    section h5{
+@media screen and (max-width: 412px) {
+    section h5 {
         font-size: 16px;
         margin-left: 5%;
     }
-    section p{
+
+    section p {
         font-size: 27px;
-        margin-left: 10%;
-    }
-    header p{
-        font-size: 40px;
-        margin-left: 5%;
+        margin-left: 1%;  
     }
 
-    .btn1{
+    header p {
+        font-size: 40px;
+        margin-left: 1%;  
+    }
+
+    .btn1 {
         font-size: 12px;
         height: 58px;
         width: 320px;
         padding-top: 4px;
-        margin-left: 1%;
+        margin-left: 3%;
     }
 
-    .btn{
+    .btn {
         justify-content: center;
         height: 45px;
         width: 310px;
         cursor: pointer;
         font-size: 12px;
         margin-right: 5%;
-        margin-left: 1%;
+        margin-left: 3%;
     }
-    .quadrado{
-        display: none;
+
+    .quadrado {
+        margin-left: -5%; 
+        display: inline-block;  
     }
-    .pergunta p{
+
+    .pergunta p {
         font-size: 15px;
         margin-top: 1%;
-        margin-left: -12%;
+        margin-left: -8%;  
     }
-    .item{
+
+    .item {
         margin-top: 4%;
         padding: 0;
     }
 }
 
-@media screen and (max-width:520px) {
-    section h5{
+@media screen and (max-width: 520px) {
+    section h5 {
         font-size: 20px;
     }
-    section p{
+
+    section p {
         font-size: 27px;
-    }
-    header p{
-        font-size: 55px;
-        margin-left: 5%;
+        margin-left: 1%;  
     }
 
-    .btn1{
+    header p {
+        font-size: 55px;
+        margin-left: 1%;  
+    }
+
+    .btn1 {
         font-size: 12px;
         height: 62px;
         width: 320px;
         padding-top: 4px;
-        margin-left: 1%;
+        margin-left: 3%;
     }
 
-    .btn{
+    .btn {
         justify-content: center;
         height: 45px;
         width: 320px;
         cursor: pointer;
         font-size: 12px;
         margin-right: 5%;
-        margin-left: 1%;
+        margin-left: 3%;
     }
-    .quadrado{
-        display: none;
+
+    .quadrado {
+        margin-left: -5%;  
+        display: none;  
     }
-    .pergunta p{
+
+    .pergunta p {
         font-size: 15px;
         margin-top: 1%;
-        margin-left: -12%;
+        margin-left: -8%;  
     }
-    .item{
+
+    .item {
         margin-top: 4%;
         padding: 0;
     }

@@ -316,7 +316,7 @@ footer {
     font-family: "Source Sans 3", sans-serif;
     overflow: hidden;
     position: relative;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -433,17 +433,21 @@ footer:hover #raposo {
 
     #footerContent {
         display: block;
+        padding-top: 1rem; 
+        opacity: 1; 
+        transform: none; 
     }
 
     #raposo {
         width: 20vw;
-        right: -15vw;
-        bottom: -10vh;
+        right: 1vw;
+        bottom: 0;
+        opacity: 1; 
     }
 
     footer:hover #raposo {
         opacity: 1;
-        right: 5vw;
+        right: 8vw;
         bottom: 5vh;
     }
 
@@ -484,16 +488,15 @@ footer:hover #raposo {
         font-size: 12px;
     }
 
-    
-
     #raposo {
         width: 30vw;
-        right: -10vw;
-        bottom: -5vh;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
     }
 
-    footer:hover #raposo {
-        right: 2vw;
+    footer #raposo {
+        right: 4vw;
         bottom: 2vh;
     }
 

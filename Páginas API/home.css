@@ -310,14 +310,14 @@ footer {
     background-color: #ffffff;
     color: #6c757d;
     font-size: 14px;
-    transition: all 0.3s ease;
     margin-bottom: 0;
     padding: 4px 0;
     font-family: "Source Sans 3", sans-serif;
     overflow: hidden;
     position: relative;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
+    height: 50px;
 }
 
 footer img {
@@ -326,13 +326,11 @@ footer img {
 
 #spacelineLogo {
     opacity: 1;
-    transition: all 0.3s ease;
 }
 
 #raposo {
     width: 11vw;
     opacity: 0;
-    transition: opacity 0.3s ease;
     position: absolute;
     right: -10vw;
     bottom: -10vh;
@@ -356,17 +354,17 @@ footer img {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 15px;
-    display: none;
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    transition: all 0.3s ease-out;
-    transform: translateY(100%);
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.3s ease;
 }
 
 footer:hover #footerContent {
-    display: flex;
+    opacity: 1;
     transform: translateY(0);
-    padding-top: 1rem;
 }
 
 footer:hover #raposo {
@@ -398,17 +396,16 @@ footer:hover #raposo {
     text-decoration: underline;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     nav ul {
         display: flex;
         justify-content: flex-end;
     }
-    
+
     nav ul li:not(.switch) {
         display: none;
     }
-    
+
     .switch {
         margin-right: 1rem;
     }
@@ -429,40 +426,38 @@ footer:hover #raposo {
         padding-top: 20px;
         padding-bottom: 20px;
         width: 100%;
+        height: auto;
     }
 
     #footerContent {
         display: block;
+        opacity: 1;
+        transform: none;
+        padding-top: 1rem;
     }
 
     #raposo {
         width: 20vw;
-        right: -15vw;
-        bottom: -10vh;
+        right: 0;
+        bottom: 0;
+        opacity: 1; 
     }
-
-    footer:hover #raposo {
-        opacity: 1;
-        right: 5vw;
-        bottom: 5vh;
-    }
-
 }
 
 @media screen and (max-width: 412px) {
     nav ul {
-        justify-content: center; 
+        justify-content: center;
     }
-    
+
     .switch {
-        margin-right: 0; 
+        margin-right: 0;
     }
-    
+
     .switch__label {
-        width: 60px; 
+        width: 60px;
         height: 28px;
     }
-    
+
     .switch__indicator {
         width: 18px;
         height: 18px;
@@ -470,6 +465,7 @@ footer:hover #raposo {
 
     footer {
         padding: 15px 0;
+        height: auto;
     }
 
     footer h3 {
@@ -484,21 +480,33 @@ footer:hover #raposo {
         font-size: 12px;
     }
 
-    
-
     #raposo {
         width: 30vw;
-        right: -10vw;
-        bottom: -5vh;
+        right: 0;
+        bottom: 0;
+        opacity: 1; 
     }
 
-    footer:hover #raposo {
+    footer #raposo {
         right: 2vw;
         bottom: 2vh;
     }
-
 }
 
+@media (min-width: 768px) {
+    footer {
+        height: 50px;
+    }
+
+    footer:hover {
+        height: auto;
+    }
+
+    footer:hover #footerContent {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
     
 /* butão :) */
 
