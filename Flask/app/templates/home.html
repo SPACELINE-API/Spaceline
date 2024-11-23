@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f80ad53398.js" crossorigin="anonymous"></script>
+    <title>API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="shortcut icon" href="../Logo Spaceline.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+                <ul>
+                    <li>
+                        <a href="{{ url_for('intro') }}">Introdução</a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('scrum') }}">Scrum</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('artefatos') }}">Artefatos</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('master') }}">Scrum Master</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('po') }}">Product Owner</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('softskills') }}">Soft Skills</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('avaliações') }}">Avaliações</a>
+                    </li>
+                    <li class="switch">
+                        <input type="checkbox" class="switch__input" id="Switch" onclick="light()">
+                        <label class="switch__label" for="Switch">
+                            <span class="switch__indicator"></span>
+                            <span class="switch__decoration"></span>
+                        </label>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>APRENDA O MÉTODO SCRUM</h1>
+        <h2>com a Spaceline</h2>
+        <input type="text" id="searchInput" placeholder="Pesquisar..." oninput="searchSite()">
+        <div id="results"></div>
+        <h3>Não sabe por onde começar?</h3>
+        <ul>
+            <a href="{{ url_for('intro') }}">clique aqui</a>
+        </ul>
+    </main>
+    <div class="wave-path-container">
+        <svg id="wave" class="wave light-mode" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-light" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(12, 120, 176, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(93.636, 225.772, 203.836, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-light)" d="M0,0L30,57.2C60,114,120,229,180,253.2C240,278,300,212,360,228.7C420,245,480,343,540,343C600,343,660,245,720,212.3C780,180,840,212,900,261.3C960,310,1020,376,1080,408.3C1140,441,1200,441,1260,392C1320,343,1380,245,1440,179.7C1500,114,1560,82,1620,81.7C1680,82,1740,114,1800,106.2C1860,98,1920,49,1980,57.2C2040,65,2100,131,2160,187.8C2220,245,2280,294,2340,326.7C2400,359,2460,376,2520,359.3C2580,343,2640,294,2700,261.3C2760,229,2820,212,2880,187.8C2940,163,3000,131,3060,98C3120,65,3180,33,3240,24.5C3300,16,3360,33,3420,32.7C3480,33,3540,16,3600,32.7C3660,49,3720,98,3780,130.7C3840,163,3900,180,3960,187.8C4020,196,4080,196,4140,179.7C4200,163,4260,131,4290,114.3L4320,98L4320,490L4290,490C4260,490,4200,490,4140,490C4080,490,4020,490,3960,490C3900,490,3840,490,3780,490C3720,490,3660,490,3600,490C3540,490,3480,490,3420,490C3360,490,3300,490,3240,490C3180,490,3120,490,3060,490C3000,490,2940,490,2880,490C2820,490,2760,490,2700,490C2640,490,2580,490,2520,490C2460,490,2400,490,2340,490C2280,490,2220,490,2160,490C2100,490,2040,490,1980,490C1920,490,1860,490,1800,490C1740,490,1680,490,1620,490C1560,490,1500,490,1440,490C1380,490,1320,490,1260,490C1200,490,1140,490,1080,490C1020,490,960,490,900,490C840,490,780,490,720,490C660,490,600,490,540,490C480,490,420,490,360,490C300,490,240,490,180,490C120,490,60,490,30,490L0,490Z"></path>
+        </svg>
+        <svg id="wave" class="wave dark-mode" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-dark" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(0, 87, 92, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(69.661, 159.29, 144.41, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-dark)" d="M0,0L30,57.2C60,114,120,229,180,253.2C240,278,300,212,360,228.7C420,245,480,343,540,343C600,343,660,245,720,212.3C780,180,840,212,900,261.3C960,310,1020,376,1080,408.3C1140,441,1200,441,1260,392C1320,343,1380,245,1440,179.7C1500,114,1560,82,1620,81.7C1680,82,1740,114,1800,106.2C1860,98,1920,49,1980,57.2C2040,65,2100,131,2160,187.8C2220,245,2280,294,2340,326.7C2400,359,2460,376,2520,359.3C2580,343,2640,294,2700,261.3C2760,229,2820,212,2880,187.8C2940,163,3000,131,3060,98C3120,65,3180,33,3240,24.5C3300,16,3360,33,3420,32.7C3480,33,3540,16,3600,32.7C3660,49,3720,98,3780,130.7C3840,163,3900,180,3960,187.8C4020,196,4080,196,4140,179.7C4200,163,4260,131,4290,114.3L4320,98L4320,490L4290,490C4260,490,4200,490,4140,490C4080,490,4020,490,3960,490C3900,490,3840,490,3780,490C3720,490,3660,490,3600,490C3540,490,3480,490,3420,490C3360,490,3300,490,3240,490C3180,490,3120,490,3060,490C3000,490,2940,490,2880,490C2820,490,2760,490,2700,490C2640,490,2580,490,2520,490C2460,490,2400,490,2340,490C2280,490,2220,490,2160,490C2100,490,2040,490,1980,490C1920,490,1860,490,1800,490C1740,490,1680,490,1620,490C1560,490,1500,490,1440,490C1380,490,1320,490,1260,490C1200,490,1140,490,1080,490C1020,490,960,490,900,490C840,490,780,490,720,490C660,490,600,490,540,490C480,490,420,490,360,490C300,490,240,490,180,490C120,490,60,490,30,490L0,490Z"></path>
+        </svg>
+    </div>
+    
+    <section>
+        <h1>Scrum</h1>
+        <h4>Introdução ao método ágil e seus principais conceitos, bem como sua forma
+            de aplicação</h4>
+        <ul>
+            <a href="{{ url_for('scrum') }}">Aprender</a>
+        </ul>
+        <h1>Artefatos</h1>
+        <h4>Artefatos e ferramentas necessários para a aplicação do método ágil</h4>
+        <ul>
+            <a href="{{ url_for('artefatos') }}">Aprender</a>
+        </ul>
+        <h1>Scrum Master</h1>
+        <h4>O papel do líder da equipe, responsável pelo gerenciamento
+            das tarefas e das atividades</h4>
+        <ul>
+            <a href="{{ url_for('master') }}">Aprender</a>
+        </ul>
+        <h1>Product Owner</h1>
+        <h4>O papel de representante dos interesses das partes envolvidas no projeto</h4>
+        <ul>
+            <a href="{{ url_for('po') }}">Aprender</a>
+        </ul>
+        <h1>Soft Skills</h1>
+        <h4>Habilidades interpessoais essenciais para um profissional de T.I.</h4>
+        <ul>
+            <a href="{{ url_for('softskills') }}">Aprender</a>
+        </ul>
+        <h1>Avaliações</h1>
+        <h4>O papel de representar as perguntas das equipes, conversando
+            com os clientes para entender seus requisitos</h4>
+        <ul>
+            <a href="{{ url_for('avaliações') }}">Aprender</a>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer-header">
+            <span>Conheça mais projetos: </span>
+            <a href="https://github.com/SPACELINE-API">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    
+        <div id="footerContent" class="footer-content">
+            <div class="footer-column">
+                <p style="text-align: left;">
+                    O conteúdo presente neste site é resultado de um processo de pesquisa, com base em fontes confiáveis e de autoridade reconhecida.
+                    <br> Nossa equipe se dedica a fornecer informações precisas, atualizadas e de qualidade, garantindo a transparência e a credibilidade das informações compartilhadas.
+                    <br> Agradecemos a todos os profissionais e fontes que ajudam a enriquecer o conhecimento compartilhado neste espaço.
+                </p>
+            </div>
+    
+            <div class="footer-column">
+                <h6>Referências</h6>
+                <p><a href="https://aws.amazon.com/pt/what-is/scrum/">Amazon AWS: O que é scrum?</a></p>
+                <p><a href="https://scrumguides.org/index.html">Scrumguides: O que é scrum?</a></p>
+                <p><a href="https://rockcontent.com/br/blog/scrum/">Rockcontent: Aplicação do scrum</a></p>
+                <p><a href="https://www.flaticon.com/uicons">Flaticon: Icons</a></p>
+            </div>
+    
+            <div class="footer-column">
+                <h6>Ajuda</h6>
+                <p><a href="#!">Manual do Usuário</a></p>
+                <h6>Contate-nos</h6>
+                <p><i class="fas fa-envelope"></i> spacelinefatec@gmail.com</p>
+            </div>
+        </div>
+    
+        <img id="raposo" src="{{ url_for('static', filename='imagens/raposa.png') }}" alt="Raposa">
+    </footer>
+                
+    <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/tema.js') }}"></script>
+    
+</body>
+</html>

@@ -23,13 +23,13 @@
     margin-top: 8%;
     }
 .nav-link{
-    color:white  !important;
+    color:white !important;
     text-decoration: none;
     font-family:'Exo 2';
     font-size: 20px;
 }
 .nav-link:hover{
-    color:#fff4a3  !important;
+    color:#fff4a3 !important;
 }
 header h1{
     color: white;
@@ -73,12 +73,6 @@ footer{
     height: 35px;
     width: 160px;
     margin-left:1%;
-    
-}
-button:focus, 
-a:focus {
-    outline: none !important;
-    box-shadow: none !important; /* Caso o botão tenha um box-shadow em foco */
 }
 
 .light-mode h1{
@@ -555,15 +549,11 @@ input[type="checkbox"]:checked + label + .content {
     background-color: #d4af37;
 }
 
-.btn-primary{
+.btn-light{
     margin-left: 60px;
     border: none;
-    background-color: #04AA6D;
 }
 
-.btn-primary:hover{
-    background-color: #04AA6D;
-}
 
 @media  screen and (max-width:768px){
     h1{
@@ -662,7 +652,7 @@ input[type="checkbox"]:checked + label + .content {
     #btnmodalbacklog{
         margin-left: 35%;
     }
-   
+}
 
 @media  screen and (max-width:520px){
     h1{
@@ -710,7 +700,7 @@ input[type="checkbox"]:checked + label + .content {
         margin-left: 17%;
     }
     #imgartefatos{
-        width: 280px;
+        width: 290px;
         height: 160px; 
         float: inherit;
         margin-left: 15%;
@@ -735,14 +725,14 @@ input[type="checkbox"]:checked + label + .content {
         width: 300px;
         height: 210px;
         float: initial;
-        margin-left: 13%;
+        margin-left: 10%;
         margin-top: -3%;
     }
     #hardesoftimg{
         width: 320px;
         height: 210px;
         float: initial;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     #img{
         width: 250px;
@@ -756,6 +746,7 @@ input[type="checkbox"]:checked + label + .content {
     #resumo{
         padding: 1rem;
         margin: 1rem;
+        margin-left: -2%;
     }
 
     .resumo h3{
@@ -786,7 +777,6 @@ input[type="checkbox"]:checked + label + .content {
         width: 390px;
     }
 }
-
 
 @media  screen and (max-width:412px){
     header h1{
@@ -831,10 +821,10 @@ input[type="checkbox"]:checked + label + .content {
         float: inherit;
     }
     #timescrum{
-        width: 240px;
+        width: 230px;
         height: 200px; 
         float: inherit;
-        margin-left: 20%;
+        margin-left: 18%;
     }
     #imgartefatos{
         width: 280px;

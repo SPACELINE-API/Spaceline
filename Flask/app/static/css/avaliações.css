@@ -14,7 +14,6 @@
     background-color: #9bc0c1;
 }
 
-
 header p{
     color: white;
     font-weight: 800;
@@ -351,7 +350,7 @@ footer{
 
     .btn1{
         font-size: 12px;
-        height: 30px;
+        height: 58px;
         width: 320px;
         padding-top: 4px;
         margin-left: 1%;

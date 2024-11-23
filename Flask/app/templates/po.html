@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<header>
+    <h1>PRODUCT OWNER</h1>
+</header>
+<main>
+    <section>
+        <h2 id="powner" class="margin">O QUE É PRODUCT OWNER?</h2>
+        <img src="{{ url_for('static', filename='imagens/p.o.png') }}" id="img">
+        <p id="responsividadems">O Product Owner, geralmente abreviado como P.O, é a pessoa responsável por garantir a comunicação entre
+            a equipe de desenvolvimento e os clientes do projeto. Ele define a visão do produto, prioriza as
+            funcionalidades e mantém a equipe focada nas necessidades identificadas e na direção solicitada pela
+            organização. É importante que haja apenas um Product Owner dentro da equipe, pois evita conflitos de
+            prioridade e garante uma visão clara e consistente do produto.</p>
+    </section>
+
+    <section>
+        <h2 class="margin">FUNÇÕES</h2>
+        <ol id="responsividade">
+            <li>Gerenciar os clientes: Balancear suas necessidades em relação ao produto, comunicar-se com eles para
+                identificar essas demandas e influencia-las, assim mantendo a colaboração com o projeto maximizada.
+            </li>
+            <li>Gerenciar o Product Backlog: Definir as funcionalidades do produto, deixando ele o mais entendível
+                para
+                o time e organizando as prioridades conforme necessário em cada sprint.</li>
+            <li>Manter a Visão do Produto: Estabelecer essa visão junto aos clientes, comunicando-a a todos os
+                envolvidos,
+                garantindo que o trabalho sempre siga nessa direção.</li>
+            <li>Planejamento e organização: Planejar as Entregas e verificar, na Sprint Review, se a Meta
+                estabelecida para a sprint
+                foi atingida.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2 class="margin">HABILIDADES</h2>
+        <ol id="responsividade">
+            <li>Capacidade analítica: O P.O deve saber analisar os dados e métricas do produto para tomar decisões
+                coerentes.</li>
+            <li>Colaboração: O P.O precisa saber facilitar as discussões com a equipe para que juntos possam chegar
+                a uma solução
+                que atenda a necessidade do cliente. Portanto, ele deve unificar as visões, promovendo a coesão do
+                time.
+            </li>
+            <li>Negociação: Ele precisa ser capaz de ouvir as necessidades, negociar expectativas e explicar as
+                decisões de
+                priorização de forma convincente.</li>
+        </ol>
+    </section>
+
+    <section>
+        <div class="resumo">
+            <h3 id="resumo">GESTOR DO BACKLOG DO PRODUTO</h3>
+            <h3 id="resumo">DEFINE A VISÃO DO PRODUTO</h3>
+            <h3 id="resumo">TOMA AS DECISÕES</h3>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="anterior">
+        <a class="btn" href="{{ url_for('master') }}" style="color:white; font-size: 17px; font-weight: 800;" role="button">ANTERIOR</a>
+    </div>
+    <div class="soft">
+        <a href="{{ url_for('home') }}" class="home">
+            <img src="{{ url_for('static', filename='imagens/home.png')}}" style="margin-top: -7%;" alt="Home"></a>
+        </div>
+        <div class="próximo">
+          <a href="{{ url_for('softskills') }}" class="btn" role="button" style="color: black; font-weight: 800; font-size: 17px;">PRÓXIMO</a>
+        </div>
+</footer>
+<script src="{{ url_for('static', filename='js/tema.js') }}"></script>
+{% endblock %}

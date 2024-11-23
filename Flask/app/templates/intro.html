@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<header>
+    <h1>INTRODUÇÃO</h1>
+</header>
+<section>
+    <h2 id="metodoagil" style="margin-left: 6%;">O QUE É A METODOLOGIA ÁGIL?</h2>
+    <img src="{{ url_for('static', filename='imagens/introimg.png') }}" id="introimg">
+    <p>A metodologia ágil é uma forma de gerenciamento de projetos que permite um desenvolvimento
+        mais flexível e adaptado. Como o próprio nome sugere, seu principal objetivo é
+        aumentar a agilidade do processo, permitindo uma maior adaptabilidade do produto. Assim, a elaboração do
+        projeto é feita em ciclos
+        curtos chamados de iterações, que possibilitam um feedback
+        contínuo e uma melhoria na qualidade e conformidade das entregas.
+        Nas próximas páginas você entenderá mais detalhadamente
+        sobre cada um desses conceitos.</p>
+</section>
+
+<section>
+
+    <h2 style="margin-top: 10%; margin-left: 4%;">O QUE VOCÊ ENCONTRARÁ NESSE SITE?</h2>
+    <p>Bem-vindo ao nosso site! O spaceline foi desenvolvido com o objetivo de ensinar a metodologia
+        ágil de forma didática, proporcionando a todos os interessados um<br>
+        conhecimento abrangente sobre o método scrum e sua aplicação prática no ambiente de trabalho.<br>
+        Além de uma sólida base teorica, cada página oferece tabelas interativas que permitem<br>
+        simular processos, montar ferramentas e identificar suas soft skills.
+        O conteúdo é dividido em 5 partes:</p>
+
+
+    <div class="introduçao">
+        <ol>
+            <li>Método Scrum: Uma explicação detalhada sobre a metodologia e todos os processos envolvidos.</li>
+            <li>Ferramentas: Conjunto de artefatos necessários para o gerenciamento e documentação do projeto.</li>
+            <li>Scrum Master: O líder da equipe.</li>
+            <li>Product Owner: O representante da equipe.</li>
+            <li>Soft skills: Habilidades necessárias para um profissional de T.I. no mercado de trabalho.</li>
+        </ol>
+        <p> Ao final de cada aula, disponibilizamos um teste de compreensão, no qual você poderá avaliar o seu nível
+            de entendimento sobre a metodologia ágil e quais os pontos de<br>
+            melhoria. </p>
+
+</section>
+    <footer>
+        <div class="soft">
+            <a href="{{ url_for('home') }}" class="home">
+                <img src="{{ url_for('static', filename='imagens/home.png')}}" style="margin-top: -10%;" alt="Home"></img>
+            </a>
+        </div>
+        <div class="próximo">
+            <a href="{{ url_for('scrum') }}" class="btn" role="button" style="font-weight: 800; font-size: 17px;">PRÓXIMO</a>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='js/tema.js') }}"></script>
+    {% endblock %}

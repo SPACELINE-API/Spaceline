@@ -1,0 +1,287 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <header>
+        <h1 style="margin-left: 4%;">ARTEFATOS</h1>
+    </header>
+
+    <section>
+        <h2 class="margin" style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px;">O QUE SÃO?</h2>
+        <p>Os artefatos são ferramentas de gerenciamento utilizadas no scrum que além de auxiliarem no
+            planejamento também fornecem informações importantes para a equipe e os demais interessados no projeto.
+            A seguir, você verá mais detalhadamente sobre cada ferramenta e sua elaboração.
+        </p>
+    </section>
+    <br>
+    <br>
+
+    <section>
+        <h2 id="bkproduto" class="margin" style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px;">BACKLOG DO PRODUTO</h2>
+        <img src="{{ url_for('static', filename='imagens/backlog.jpg') }}" id="imgartefatos" alt="Backlog">
+        <p id="ajusteresp"> O Backlog é uma lista de todos os requisitos, melhorias e correções do produto, ou seja, tudo aquilo que
+            deve ser desenvolvido pela equipe. Esse documento está em constante alteração, passando por redefinições
+            de prioridade conforme necessário. O Product Owner é o responsável por criar e alterar essa lista,
+            satisfazendo
+            as necessidades do cliente.
+        </p>
+        <h2 class="margin" style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px;">Como montar o Backlog?</h2>
+        <p> O Product Owner deve conversar com o cliente e fazer um levantamento de todos os
+            requisitos. Após entender a
+            visão do produto, as Epics, funcionalidades de maior nível, devem ser identificadas e priorizadas em relação
+            as demais tarefas. Depois, essas Epics devem ser divididas em User Story (você entenderá melhor esse
+            conceito
+            mais abaixo) e as tarefas devem ser divididas por de prioridade. Por fim, é essencial fazer uma estimativa
+            para cada item do backlog, conforme o nível de dificuldade.
+        </p>
+
+        <button id="btnmodalbacklog" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalBacklog">
+            Faça você mesmo
+          </button>
+      
+          <div class="modal fade" id="myModalBacklog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="myModalLabel">Backlog do produto</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <p style="font-size:medium; color: black;">Sua tarefa é criar um backlog para o desenvolvimento de um site de loja de roupas. O backlog deve incluir todas as funcionalidades listadas abaixo.
+                    Organize cada funcionalidade de acordo com a prioridade, pensando na experiência do usuário. 
+                  </p>
+
+                  <table id="tabela">
+                    <tr>
+                        <td id="cell1" ondrop="drop(event)" ondragover="allowDrop(event)">Essencial para o produto</td>
+                        <td id="cell2" ondrop="drop(event)" ondragover="allowDrop(event)">Deve ter, mas não é essencial</td>
+                    </tr>
+                    <tr>
+                        <td id="cell3" ondrop="drop(event)" ondragover="allowDrop(event)">Pode entrar, mas se os itens anteriores forem concluídos</td>
+                        <td id="cell4" ondrop="drop(event)" ondragover="allowDrop(event)">Não faz sentido ser realizado agora</td>
+                    </tr>
+                </table>
+                
+                <div class="containerbacklog">
+        
+                  <div id="items">
+                      <div id="item1" class="drag-item" draggable="true" ondragstart="drag(event)">Página inicial com destaque para promoções, categorias e produtos.</div>
+                      <div id="item2" class="drag-item" draggable="true" ondragstart="drag(event)">Exibir todos os produtos com filtro de categoria, preço e tamanho.</div>
+                      <div id="item3" class="drag-item" draggable="true" ondragstart="drag(event)">Página com detalhes de cada produto, como foco, descrição e tamanho.</div>
+                      <div id="item4" class="drag-item" draggable="true" ondragstart="drag(event)">Funcionalidade para adicionar produtos ao carrinho e visualizar o total.</div>
+                      <div id="item5" class="drag-item" draggable="true" ondragstart="drag(event)">Formulário para preenchimento de dados de entrega, pagamento e revisão de pedidos.</div>
+                      <div id="item6" class="drag-item" draggable="true" ondragstart="drag(event)">Formulário de contato com nome, e-mail e telefone.</div>
+                      <div id="item7" class="drag-item" draggable="true" ondragstart="drag(event)">Mapa interativo mostrando a localização da loja física.</div>
+                  </div>
+          
+                  <div id="items2">
+                      <div id="item8" class="drag-item" draggable="true" ondragstart="drag(event)">Permitir que os usuários enviem um feedback sobre o produto.</div>
+                      <div id="item9" class="drag-item" draggable="true" ondragstart="drag(event)" >Cadastro de usuário (Login)</div>
+                      <div id="item10" class="drag-item" draggable="true" ondragstart="drag(event)">Integração com sistema de pagamento para aceitar cartões de crédito.</div>
+                      <div id="item11" class="drag-item" draggable="true" ondragstart="drag(event)">Enviar confirmação de pedidos, atualizações e promoções via e-mail.</div>
+                      <div id="item12" class="drag-item" draggable="true" ondragstart="drag(event)">Tornar o site responsivo.</div>
+                      <div id="item13" class="drag-item" draggable="true" ondragstart="drag(event)">Controle de estoque para não permitir a compra de produtos indisponíveis.</div>
+                      <div id="item14" class="drag-item" draggable="true" ondragstart="drag(event)">Implementar um site para suporte em tempo real para os clientes.</div>
+                  </div>
+              </div>
+
+              <h2 style="margin-top: 30px;">Gabarito:<h2>
+
+                <input type="checkbox" id="toggle">
+
+                <label for="toggle">Clique aqui para conferir</label>
+
+                <div class="content">
+                    <img id="imggabarito" src="{{ url_for('static', filename='imagens/gabarito.png') }}">
+                </div>
+    </div>
+      
+                </div>
+                <div class="modal-footer">
+                  <button id="fecharbacklog" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+    <br>
+    <br>
+
+    <section>
+        <h2 id="graficobd" style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px;margin-left: 4%;">BURNDOWN</h2>
+        <p>O Burndown é um gráfico que representa a relação entre a estimativa para o
+            período de conclusão das atividades e o período real de conclusão. Esse artefato permite que o
+            grupo tenha uma visão clara sobre o progresso das atividades e as possíveis dificuldades enfrentadas em
+            relação
+            ao tempo de finalização.</p>
+        <img src="{{ url_for('static', filename='imagens/burndown.png') }}" id="burndown" alt="burndown">
+        <h2 style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px; margin-top:10%; margin-left: 4%;">Como criar um Burndown?</h2>
+        <p> Para criar um gráfico de Burndown o Scrum Master deve estimar o esforço necessário para
+            concluir cada tarefa da sprint, determinando um limite de tempo. É natural que a diferença entre a linha
+            que representa o trabalho real seja diferente da estimativa, afinal, podem existir muitos imprevistos ao
+            longo
+            do desenvolvimento que atrasem a conclusão das atribuições. Da mesma forma, o grupo também pode estar muito
+            adiantado
+            na entrega dos resultados, pois o foco está em analisar e acompanhar o progresso, e não em seguir
+            estritamente a
+            estimativa.
+        </p>
+
+        <button id="btnmodalburndown" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalBurndown">
+            Faça você mesmo
+          </button>
+         
+          <div class="modal" id="myModalBurndown">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <div class="modal-header">
+                  <h4 class="modal-title">Gráfico burndown</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+    
+                <div class="modal-body">
+                  
+                    <div class="burndown">
+                       
+                        <div class="input-group">
+                            <label for="expectativa1">Expectativa Tarefa 1 (Horas):</label>
+                            <input type="number" id="expectativa1">
+                            <label for="real1">Tempo Real Tarefa 1 (Horas):</label>
+                            <input type="number" id="real1">
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="expectativa2">Expectativa Tarefa 2 (Horas):</label>
+                            <input type="number" id="expectativa2">
+                            <label for="real2">Tempo Real Tarefa 2 (Horas):</label>
+                            <input type="number" id="real2">
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="expectativa3">Expectativa Tarefa 3 (Horas):</label>
+                            <input type="number" id="expectativa3">
+                            <label for="real3">Tempo Real Tarefa 3 (Horas):</label>
+                            <input type="number" id="real3">
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="expectativa4">Expectativa Tarefa 4 (Horas):</label>
+                            <input type="number" id="expectativa4">
+                            <label for="real4">Tempo Real Tarefa 4 (Horas):</label>
+                            <input type="number" id="real4">
+                        </div>
+                
+                        <div class="input-group">
+                            <label for="expectativa5">Expectativa Tarefa 5 (Horas):</label>
+                            <input type="number" id="expectativa5">
+                            <label for="real5">Tempo Real Tarefa 5 (Horas):</label>
+                            <input type="number" id="real5">
+                        </div>
+                
+                        <button id="atualizargrafico" onclick="atualizarGrafico()">Atualizar Gráfico</button>
+                       
+                        <div class="chart-container">
+                            <canvas id="graficoComparacao"></canvas>
+                        </div>
+                    </div>
+    
+                </div>
+          
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
+    </section>
+    <br>
+    <br>
+
+    <section>
+        <h2 id="us" class="margin" style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px;">USER STORY</h2>
+        <p>São tarefas menores extraídas do backlog que descrevem uma necessidade do usuário a partir do seu próprio
+            ponto de
+            vista. Geralmente uma User Story segue o seguinte formato: Como [usuário], eu quero a [ação] para
+            [benefício].
+        </p>
+        <div class="userstory">
+            <p>Quem: Define quem é o usuário que tem a necessidade.
+                “QUEM” ajuda a criar no leitor da User Story uma imagem<br>
+                mental desse usuário.</p>
+            <p>Por que? : Define qual o benefício do usuário ao ter a funcionalidade desenvolvida para atender a
+                essa necessidade.Em outras palavras, qual o valor direto obtido.</p>
+            <p>O que? : Define qual é a necessidade do usuário. Tradicionalmente,
+                os requisitos do produto são representados apenas por essa parte.</p>
+        </div>
+
+        <h2 class="margin" style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px;">Como fazer uma User Story?</h2>
+        <p>As tarefas devem ser listadas no formato descrito acima e classificadas de acordo com o nível de prioridade.
+            Também é necessário que a User Story seja acompanhada por um critério de aceitação, que define o que é
+            necessário
+            para que a tarefa seja concluída.
+        </p>
+    </section>
+    <br>
+    <br>
+
+    <section>
+        <h2 id="dd" style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px; margin-left: 4%;">DOR E DOD</h2>
+        <div class="dodedor">
+         <img src="{{ url_for('static', filename='imagens/dor.png') }}" id="imgdor" alt="DOR">
+         <img src="{{ url_for('static', filename='imagens/dod2.jpg') }}" id="imgdod" alt="DOD">
+    </div>
+        <p>DOR, Definition of Ready, são os critérios que detalham o que uma user story precisa conter para que possa
+            ser executada
+            pelo time. Enquanto DOD, Definition of Done, é a definição daquilo que foi feito. Ambas as ferramentas são
+            importantes para
+            trazer tranparência ao processo de desenvolvimento, sendo critérios de entrada e saída, o DOR verificando se
+            o item está pronto
+            para ser levado para teste e o DOD se um item está pronto para ser movido para a próxima etapa.</p>
+    </section>
+    <br>
+    <br>
+
+    <section>
+        <h2 id="mvproduto" style="color:#d4af37; font-family: 'Source Sans 3'; font-weight: 900; font-size: 35px;" class="margin">MVP</h2>
+        <p>O MVP, Mínimo Produto Viável, é uma versão simplificada do produto que representa uma entrega de valor para o
+            cliente. Ou seja,
+            o MVP contém as funcionalidades necessárias para resolver o problema do cliente, porém não está completo.
+            Como essa
+            ferramenta é rapidamente lançada no mercado, os desenvolvedores possuem a vantagem de obter um feedback do
+            produto e validar
+            o investimento.</p>
+        <img id="mvpimg" src="{{ url_for('static', filename='imagens/mvp.png') }}" alt="mvp">
+        <h2 class="margin">Como fazer o MVP?</h2>
+        <p>Deve-se considerar a necessidade do cliente, pois mesmo que o MVP seja uma versão incompleta do produto, ele
+            deve ter funcionalidades
+            suficientes para representar uma entrega de valor. Ou seja, elabore o produto pensando no que o cliente
+            precisa.
+        </p>
+    </section>
+
+    <footer>
+        <div class="anterior">
+            <a class="btn" href="{{ url_for('scrum') }}"  style="color:white; font-size: 17px; font-weight: 800;" role="button">ANTERIOR</a>
+        </div>
+        <div class="soft">
+            <a href="{{ url_for('home') }}" class="home">
+                <img src="{{ url_for('static', filename='imagens/home.png') }}" alt="Home"  style="margin-top: -7%;"></a>
+            </div>
+            <div class="próximo">
+              <a href="{{ url_for('master') }}"  class="btn" role="button" style="color: black; font-weight: 800; font-size: 17px;">PRÓXIMO</a>
+            </div>
+    </footer>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/backlog.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/burndown.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/tema.js') }}"></script>
+ {% endblock %}

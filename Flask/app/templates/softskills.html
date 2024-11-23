@@ -1,0 +1,178 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<header>
+    <h1 style="margin-left: 6%;">SOFT SKILLS</h1>
+</header>
+<main>
+    <section>
+        <h2 id="sfk" class="margin">O QUE SÃO?</h2>
+        <p id="responsividadems">Soft skill é o termo utilizado para se referir as habilidades e competências comportamentais de um
+            indivíduo,
+            como este se porta em meio a outros e até mesmo como ele trabalha/lida com suas próprias emoções.
+            São exemplos de soft skills: empatia, liderança, curiosidade, integridade, criatividade,
+            responsabilidade,
+            sociabilidade, trabalho em equipe, entre muitas outras</p>
+    </section>
+    <img src="{{ url_for('static', filename='imagens/softskills.png') }}" id="imgsoftskills" alt="softskills">
+    <section>
+        <h2 class="margin">DIFERENÇA ENTRE SOFT SKILLS E HARD SKILLS</h2>
+        <p id="responsividadems">Hard Skills são as habilidades técnicas que um indivíduo adquire em sua trajetória profissional através
+            de graduações, cursos e treinamentos.
+            Tudo que o profissional possa mostrar em seu currículo como habilidades adquiridas. Enquanto Soft
+            Skills, como já citado,
+            são as habilidades comportamentais de um indivíduo que no caso não necessitam de um certificado, mas sim
+            de um desenvolvimento intrapessoal e,
+            principalmente, interpessoal.</p>
+    </section>
+    <section>
+        <h2 class="margin">COMO DESENVOLVER SOFT SKILLS?</h2>
+        <img src="{{ url_for('static', filename='imagens/hardesoft.png') }}" id="hardesoftimg">
+        <p id="responsividadems">Há Soft Skills que já fazem parte da personalidade da pessoa, no entanto o desenvolvimento destas precisa
+            ser aprimorado de maneira contínua e
+            ainda há outras que precisam ser desenvolvidas e é através do autoconhecimento que o indivíduo consegue
+            evoluir as Soft Skills.
+            Primeiramente é importante analisar quais as habilidades precisam ser desenvolvidas através de uma
+            autoanalise que pode ser feita utilizando várias
+            ferramentas, como por exemplo o MBTI onde a pessoa consegue entender sobre seu tipo de personalidade.
+            Feito isso, há algumas práticas que podem colaborar nessa busca pelo desenvolvimento pessoal, tais como
+            participar de projetos em equipe para poder aplicar
+            as habilidades interpessoais, buscar um feedback regular nas áreas de possíveis melhorias, leitura de
+            livros sobre inteligência emocional, se colocar no lugar do outro e
+            tentar entender o outro lado, entre muitas outras maneiras.</p>
+    </section>
+</main>
+
+<section>
+
+    <h2 class="margin">DESCUBRA QUAIS SÃO AS SUAS SOFT SKILLS!</h2>
+
+    <p>O teste abaixo contém dez perguntas com 4 alternativas. A partir dessa avaliação, você irá
+        receber um feedback sobre quais são as suas principais soft skills e também quais são as habilidades
+        que precisam de evolução.
+    </p>
+
+    <button style="background-color: #04AA6d; border: none; margin-left: 4%;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModalSkills">
+        Realizar teste
+      </button>
+      
+      <div class="modal" id="myModalSkills">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <div class="modal-header">
+              <h4 class="modal-title">Teste de Soft Skills</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <div class="modal-body">
+
+            <p style="color: gray;">Escolha dentre as quatro alternativas qual adjetivo melhor te descreve.</p>
+
+    <form id="quizForm">
+
+    <div id="questalign">
+      
+        <div class="question">
+            <input type="radio" name="q1" value="D"> Competitivo<br>
+            <input type="radio" name="q1" value="I"> Sociável<br>
+            <input type="radio" name="q1" value="S"> Paciente<br>
+            <input type="radio" name="q1" value="C">Analítico
+        </div>
+        
+        <div class="question">
+            <input type="radio" name="q2" value="D"> Determinado<br>
+            <input type="radio" name="q2" value="I"> Entusiástico<br>
+            <input type="radio" name="q2" value="S"> Apoiante<br>
+            <input type="radio" name="q2" value="C">Detalhista
+        </div>
+        
+        <div class="question">
+            <input type="radio" name="q3" value="D"> Autoconfiante<br>
+            <input type="radio" name="q3" value="I"> Ousado<br>
+            <input type="radio" name="q3" value="S"> Confiável<br>
+            <input type="radio" name="q3" value="C">Preciso
+        </div>
+
+        <div class="question">
+            <input type="radio" name="q4" value="D"> Resultados<br>
+            <input type="radio" name="q4" value="I"> Persuasivo<br>
+            <input type="radio" name="q4" value="S"> Solidário<br>
+            <input type="radio" name="q4" value="C">Meticuloso
+        </div>
+
+        <div class="question">
+            <input type="radio" name="q5" value="D"> Decisivo<br>
+            <input type="radio" name="q5" value="I"> Carismático<br>
+            <input type="radio" name="q5" value="S"> Leal<br>
+            <input type="radio" name="q5" value="C">Cauteloso
+        </div>
+
+        <div class="question">
+            <input type="radio" name="q6" value="D"> Desafiador<br>
+            <input type="radio" name="q6" value="I"> Criativo<br>
+            <input type="radio" name="q6" value="S"> Calmo<br>
+            <input type="radio" name="q6" value="C">Organizado
+        </div>
+
+        <div class="question">
+            <input type="radio" name="q7" value="D"> Líder<br>
+            <input type="radio" name="q7" value="I"> Otimista<br>
+            <input type="radio" name="q7" value="S"> Compreensível<br>
+            <input type="radio" name="q7" value="C">Rigoroso
+        </div>
+
+        <div class="question">
+            <input type="radio" name="q8" value="D"> Focado<br>
+            <input type="radio" name="q8" value="I"> Comunicador<br>
+            <input type="radio" name="q8" value="S"> Consistente<br>
+            <input type="radio" name="q8" value="C">Planejador
+        </div>
+
+        <div class="question">
+            <input type="radio" name="q9" value="D"> Independente<br>
+            <input type="radio" name="q9" value="I"> Inspirador<br>
+            <input type="radio" name="q9" value="S"> Escutador<br>
+            <input type="radio" name="q9" value="C">Crítico
+        </div>
+
+        <div class="question">
+            <input type="radio" name="q10" value="D"> Ambicioso<br>
+            <input type="radio" name="q10" value="I"> Acessível<br>
+            <input type="radio" name="q10" value="S"> Cooperativo<br>
+            <input type="radio" name="q10" value="C">Estruturado 
+        </div>
+
+        <button id="resultadosk" type="button" onclick="calcularResultado()">Finalizar</button>
+    </form>
+
+    <div class="result" id="result"></div>
+
+       <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+</div>
+
+</section>
+
+<footer>
+    <div class="anterior">
+        <a  href="{{ url_for('po') }}" class="btn" style="color:white; font-size: 17px; font-weight: 800;" role="button">ANTERIOR</a>
+    </div>
+    <div class="soft">
+        <a href="{{ url_for('home') }}"  class="home">
+            <img src="{{ url_for('static', filename='imagens/home.png')}}" alt="Home"></a>
+        <div class="avaliação">
+            <a href="{{ url_for('avaliações') }}"  class="btn" style="color:black; text-decoration: none; font-size: 16px; font-weight: 800; margin-left: -2%;"
+                role="button">REALIZAR AVALIAÇÃO</a>
+        </div>
+    </div>
+</footer>
+
+<script src="{{ url_for('static', filename='js/tema.js') }}"></script>
+<script src="{{ url_for('static', filename='js/skills.js') }}"></script>
+{% endblock %}
