@@ -113,6 +113,7 @@ Clique no link para ser redirecionado para nosso manual!
 | Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
 
 </details>
+
 # :medal_sports: Docentes
 | P¹ | m² |
 | ---------------------- | ------------- |
