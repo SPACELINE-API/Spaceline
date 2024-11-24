@@ -48,6 +48,10 @@ Um roadmap com o que foi entregue em cada sprint
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=jira,canva,vscode,html,css,js,figma,excel,flask,aws,bootstrap,git,github)
 
+## :open_book: Manual do Usuário
+Clique no link para ser redirecionado para nosso manual!
+<p>https://github.com/SPACELINE-API/Spaceline/blob/b9dd9170c89cdb916b7cace425872b89426b0862/Documenta%C3%A7%C3%A3o/MANUAL_DO_USUARIO.md</p>
+
 
 
 # Backlog do produto
@@ -109,6 +113,10 @@ Um roadmap com o que foi entregue em cada sprint
 | Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
 
 </details>
+# :medal_sports: Docentes
+| P¹ | m² |
+| ---------------------- | ------------- |
+| Professor Antonio Egydio | Professor Jean Costa |
 
 # Autores
 |    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
