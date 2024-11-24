@@ -42,7 +42,7 @@ Clique na imagem abaixo para uma demonstração.
 ## :bike: MVP
 Um roadmap com o que foi entregue em cada sprint
 
-![MVP da equipe spaceline](Páginas-API/imagens/mvp-roadmap.gif)
+![MVP da equipe spaceline](https://github.com/SPACELINE-API/Spaceline/blob/14e73c448f6b95759f273b1e0c7b0955f0c58bd5/P%C3%A1ginas%20API/imagens/mvp-roadmap.gif)
 
 ## :desktop_computer: Tecnologias Utilizadas
 
