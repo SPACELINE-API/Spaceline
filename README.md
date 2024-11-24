@@ -14,13 +14,15 @@ Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focad
 Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO). 
 Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC com definição das datas do kickoff e das sprints
 
+## :card_index: Sprints
+
 Sprint | Previsão | Status|
 |------|--------|------|
 |Kick Off Geral | 26/08/2024 - 30/08/2024 | Concluído |
 |Kick Off 1° Semestre | 02/09/2024 - 06/09/2024 | Concluído|
 |01| 09/09/2024 - 29/09/2024 | Concluído|
 |02| 07/10/2024 - 27/10/2024 | Concluído |
-|03| 04/11/2024 - 24/11/2024 | a fazer|
+|03| 04/11/2024 - 24/11/2024 | Concluído |
 |Feira de Soluções|12/12/2024 |a fazer |
 
 
@@ -30,17 +32,19 @@ Sprint | Previsão | Status|
 # Objetivo do Projeto
 Desenvolver um sistema web que explique os processos e artefatos da Scrum, tendo conceitos e fundamentos com referências e exemplos para a compreensão do usuário. Criar um formulário para avaliações parciais e final (com totalização). O Sistema deve ter foco na disseminação dos processos para que os usuários possam replicar todos os passos em futuros desenvolvimentos. A prioridade secundária será a compreensão de Skills importantes para um profissional de TI. Todo o material de conhecimento publicado no sistema deverá ter forma indireta (Conhecimento adquirido e repassado pelos desenvolvedores). Bem como toda a documentação de desenvolvimento deverá ser lastreado no GitHub com todos os processos necessários para a fidelização do cliente.
 
-# Demostrações das sprints
+# :vhs: Demostrações das sprints
 
 Apresentação das funcionalidades.
 Clique na imagem abaixo para uma demonstração.
 
 [(![Logo Spaceline1](https://github.com/user-attachments/assets/0172c881-902b-4b82-b01a-fa3a1f033c75))](https://youtu.be/nUbAAqzZpUc)
 
-## MVP
-![MVP da equipe spaceline](https://github.com/SPACELINE-API/Spaceline/blob/main/P%C3%A1ginas%20API/imagens/WhatsApp%20Image%202024-10-26%20at%2013.00.13.jpeg)
+## :bike: MVP
+Um roadmap com o que foi entregue em cada sprint
 
-##:desktop_computer: Tecnologias Utilizadas
+![MVP da equipe spaceline](Páginas-API/imagens/mvp-roadmap.gif)
+
+## :desktop_computer: Tecnologias Utilizadas
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=jira,canva,vscode,html,css,js,figma,excel,flask,aws,bootstrap,git,github)
 
@@ -68,6 +72,9 @@ Clique na imagem abaixo para uma demonstração.
 | 16 | Carla, uma especialista em UX, deseja demonstrar uma pontuação para os funcionários da empresa Z, em relação as avaliações realizadas. | Altíssima | 3 |
 | 17 | Lucas, um desenvolvedor, precisa implementar uma barra de pesquisa para facilitar a localização de conteúdos específicos no site. | Alta | 3 |
 | 18 | Amanda, uma designer, quer criar uma barra de navegação em cascata para melhorar a usabilidade e permitir que os usuários acessem facilmente subcategorias e páginas do site. | Alta | 3 |
+| 19 | João, um desenvolvedor, precisa migrar o programa para o Flask para criar uma estrutura de servidor web leve e escalável. | Altíssima | 3 |
+| 20 | O CEO da empresa deseja implementar a AWS para hospedar o site, permitindo acesso seguro e eficiente de qualquer lugar. | Altíssima | 3 |
+
 
 
   
